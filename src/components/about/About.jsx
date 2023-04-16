@@ -5,6 +5,8 @@ import PM from "../../assets/PM.png"
 import {RxCounterClockwiseClock} from "react-icons/rx"
 import {BsCaretRightSquareFill} from "react-icons/bs"
 import {Gi3DStairs} from "react-icons/gi"
+import {BsHeart} from "react-icons/bs"
+
 
 
 
@@ -60,7 +62,7 @@ const About = () => {
           <article className="about__card">
             <div className="icon__h5">
               <h5>Centres d'intérêt</h5>
-              <Gi3DStairs className="about__icon"/>               
+              <BsHeart className="about__icon"/>               
             </div>
             <p>Photographie argentique <br/>
                Cinéma <br/>

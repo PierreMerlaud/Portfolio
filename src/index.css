@@ -44,26 +44,17 @@ body {
     background: var(--color-bg);
     color: #00457a;
     line-height: 1.7;
-    background: #005AA7;  /*fallback for old browsers*/
     background: -webkit-linear-gradient(to right, #fcf9f0, #8EA7E9);
     background: linear-gradient(to left, #fcf9f0, #8EA7E9);
+
+   
    
     /* background: -webkit-linear-gradient(to right, #fcf9f0, #8EA7E9);  Chrome 10-25, Safari 5.1-6
     background: linear-gradient(to left, #fcf9f0, #8EA7E9); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  
 }
 
-/* body::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(../src/assets/fond-png.png);
-    opacity: 0.2; /* applique une opacité de 50% à l'image de fond 
-} */
+
 
 /*=========== GENERAL STYLES ===========*/
 
@@ -88,6 +79,10 @@ h5 {
 section {
     padding-top: 6rem;
     padding-bottom: 6rem;
+    /* background-image: url(../src/assets/cloud.png); 
+    background-size: cover;
+    background-repeat: round;
+    background-position: center; */
 }
 
 section > h2,
@@ -159,8 +154,7 @@ img {
 @media screen and (max-width:1024px){
     .container {
         width: var(--container-width-md);
-}
-
+    }
     
 }
 
