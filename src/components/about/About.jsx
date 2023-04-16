@@ -24,7 +24,7 @@ const About = () => {
                 <h5>Passé</h5>
                 <RxCounterClockwiseClock className="about__icon"/>
               </div>
-              <p>Anciennement assistant caméra pendant 5 ans, puis caméraman en télévision durant 7 années. Ce métier m'a permis de développer un côté créatif et débrouillard.<br></br></p>
+              <p>Anciennement assistant caméra pendant 5 ans, puis caméraman en télévision durant 7 années, j'ai évolué dans un milieu où le sens du collectif est primordial. Ce métier m'a permis de développer un côté créatif et débrouillard. <br></br></p>
               
             </article>
 
@@ -33,7 +33,7 @@ const About = () => {
                 <h5>Présent</h5>
                 <BsCaretRightSquareFill className="about__icon"/>                
               </div>
-              <p>Etudiant en développement web front / full-stack chez Ada Tech School. Je me concentre actuellement sur React-js et Node-js.</p>
+              <p>Etudiant en développement web front / full-stack chez Ada Tech School. Cette formation me permet de découvir le monde du code et de la tech en autonomie grâce à la pédagogie Montessori. L'accent est mis sur la communication et le travail en équipe. Je me concentre actuellement sur React-js et Node-js.</p>
             </article>
 
             <article className="about__card">
@@ -41,7 +41,7 @@ const About = () => {
                 <h5>Futur</h5>
                 <Gi3DStairs className="about__icon"/>               
               </div>
-              <p>En recherche d'une alternance à partir de juin 2023. Impatient d'intégrer une équipe bienveillante avec laquelle poursuivre ma découverte du code et du monde de la tech.</p>
+              <p>En recherche d'une alternance à partir de juin 2023. Je suis impatient d'intégrer une équipe bienveillante avec laquelle poursuivre mon apprentissage en participant à des projets ambitieux et stimulants. </p>
             </article>
             <a href="#contact" className="btn btn-primary btn-contact">CONTACT</a>
           </div>
@@ -58,9 +58,15 @@ const About = () => {
             </div>
           </div>
           <article className="about__card">
-              
-              <p> After working 10 years as an  Staff Sergeant in the  French Army, I am now doing a reconversion in web development, an area where I discovered the richness of the trades (creativity, teamwork, problem solving, etc.) and the major impact on both companies and society at large. 
-                  Autonomous, curious, attentive and team-oriented, I always in search to develop and deepen my knowledge while putting my skills at the service of the collective for the success of your projects.</p>
+            <div className="icon__h5">
+              <h5>Centres d'intérêt</h5>
+              <Gi3DStairs className="about__icon"/>               
+            </div>
+            <p>Photographie argentique <br/>
+               Cinéma <br/>
+               Tennis / badminton <br/>
+               Littérature
+            </p>
               
             </article>
         </div>
