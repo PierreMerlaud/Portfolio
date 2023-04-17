@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.96fb7f58.css",
-    "main.js": "/Portfolio/static/js/main.08c1b422.js",
+    "main.css": "/Portfolio/static/css/main.f4bb285e.css",
+    "main.js": "/Portfolio/static/js/main.ad1d4b6d.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Mer.jpg": "/Portfolio/static/media/Mer.9bb3a6cf4f453b757db1.jpg",
     "static/media/champ.jpg": "/Portfolio/static/media/champ.3eb6ad25e0099909a941.jpg",
+    "static/media/site-photo1.png": "/Portfolio/static/media/site-photo1.615fd6323a0fbae727c1.png",
     "static/media/extension.png": "/Portfolio/static/media/extension.1e492b315fffb1d3096c.png",
     "static/media/CV_Pierre_Merlaud.pdf": "/Portfolio/static/media/CV_Pierre_Merlaud.1df29f49be892cbf769f.pdf",
     "static/media/PM.png": "/Portfolio/static/media/PM.c4ee43c25ad18121fb46.png",
@@ -13,12 +14,12 @@
     "static/media/pico.png": "/Portfolio/static/media/pico.07750ba9241a88093348.png",
     "static/media/Me.jpg": "/Portfolio/static/media/Me.6aad624c00e5029c1b6b.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.96fb7f58.css.map": "/Portfolio/static/css/main.96fb7f58.css.map",
-    "main.08c1b422.js.map": "/Portfolio/static/js/main.08c1b422.js.map",
+    "main.f4bb285e.css.map": "/Portfolio/static/css/main.f4bb285e.css.map",
+    "main.ad1d4b6d.js.map": "/Portfolio/static/js/main.ad1d4b6d.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.96fb7f58.css",
-    "static/js/main.08c1b422.js"
+    "static/css/main.f4bb285e.css",
+    "static/js/main.ad1d4b6d.js"
   ]
 }
