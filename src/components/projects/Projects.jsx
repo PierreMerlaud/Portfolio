@@ -5,6 +5,7 @@ import extension from "../../assets/extension.png"
 import reseau_social from "../../assets/reseau_social.png"
 import pico from "../../assets/pico.png"
 import Mer from "../../assets/Mer.jpg"
+import sitephoto1 from "../../assets/site-photo1.png"
 import {GrReactjs} from "react-icons/gr"
 import {SiTailwindcss} from "react-icons/si"
 import {FaLaravel} from "react-icons/fa"
@@ -75,6 +76,37 @@ const Projects = () => {
         <div className="projets__item-cta">
           <a href="https://github.com/PierreMerlaud/projet_collectif_vente_de_meubles-front-team_retrovibe"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
           <a href="https://retrovibes.herokuapp.com/home"className="btn btn-primary"target="_blank" rel="noreferrer"><AiOutlineLink className="projets__details-icon" /></a>
+        </div>
+        </article>
+
+        <article className="projets__item">
+        <div className="projets__item-image">
+          <img src={sitephoto1} alt="site_e_commerce" />
+          <div className="new_div">
+            <h5>Stack</h5>
+          <div className="stack">
+            <article className="front-1">
+              <AiFillHtml5 className="projets__details-icon" />
+              <div className="">
+              <h4>HTML</h4>
+              </div>
+            </article>
+
+            <article className="front-1">
+              <DiCss3 className="projets__details-icon" />
+              <div className="">
+              <h4>CSS</h4>
+              </div>
+            </article>
+          </div>
+        </div>
+
+
+        </div>
+        <h5>Premier site photo</h5>
+        <div className="projets__item-cta">
+          {/* <a href="https://github.com/PierreMerlaud/projet_collectif_vente_de_meubles-front-team_retrovibe"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a> */}
+          <a href="https://pierremerlaud.github.io/Premier-site-photo/index.html"className="btn btn-primary"target="_blank" rel="noreferrer"><AiOutlineLink className="projets__details-icon" /></a>
         </div>
         </article>
 
