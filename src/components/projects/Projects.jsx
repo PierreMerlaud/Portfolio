@@ -35,10 +35,13 @@ const Projects = () => {
 
       <div className="container projets__container">
         <article className="projets__item">
+
           <div className="image_description">
-              <div className="image_title_link">
+
+            <div className="image_title_link">
+
                 <div className="projets__item-image">
-                  <img src={retrovibe} alt="site_e_commerce" />
+                    <img src={retrovibe} alt="site_e_commerce" />
                     <div className="new_div">
                       <h5>Stack</h5>
                       <div className="stack">
@@ -67,216 +70,331 @@ const Projects = () => {
                           </div>
                         </article>
                       </div>
+                    </div>
+
                   </div>
-                  </div>
-                  <h5>E-commerce</h5>
-                  <div className="projets__item-cta">
-                    <a href="https://github.com/PierreMerlaud/projet_collectif_vente_de_meubles-front-team_retrovibe"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
-                    <a href="https://retrovibes.herokuapp.com/home"className="btn btn-primary"target="_blank" rel="noreferrer"><AiOutlineLink className="projets__details-icon" /></a>
+                <h5>E-commerce</h5>
+                <div className="projets__item-cta">
+                  <a href="https://github.com/PierreMerlaud/projet_collectif_vente_de_meubles-front-team_retrovibe"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
+                  <a href="https://retrovibes.herokuapp.com/home"className="btn btn-primary"target="_blank" rel="noreferrer"><AiOutlineLink className="projets__details-icon" /></a>
+                </div>
+            </div>
+            <div className="description">-&gt; Site de vente d'occasion.
+                                         <br/><br/>
+                                         -&gt; Projet collectif de 2 semaines.
+                                         <br/><br/>
+                                         -&gt; Équipe imposée (le groupe se sépare en deux équipes, une qui commencera par travailler sur le front-end et l’autre sur le back-end, puis les deux équipes inverseront à la fin de la première semaine).
+                                         <br/><br/>
+                                         -&gt; Découverte de React-JS et Laravel.
+                                         <br/><br/>
+                                         -&gt; Pratique de la complémentarité front / back.
+                                         <br/><br/>
+                                         -&gt; Expérimenter le switch d'une stack à une autre. 
+                                         <br/><br/>
+                                         -&gt; Travailler sur la transmission d'un code propre et aisément explicable.
+            </div>
+          </div>
+        </article>
+
+        <article className="projets__item">
+
+          <div className="image_description">
+
+            <div className="image_title_link">
+
+          <div className="projets__item-image">
+            <img src={sitephoto1} alt="site_e_commerce" />
+            <div className="new_div">
+              <h5>Stack</h5>
+            <div className="stack">
+              <article className="front-1">
+                <AiFillHtml5 className="projets__details-icon" />
+                <div className="">
+                <h4>HTML</h4>
+                </div>
+              </article>
+
+              <article className="front-1">
+                <DiCss3 className="projets__details-icon" />
+                <div className="">
+                <h4>CSS</h4>
+                </div>
+              </article>
+            </div>
+          </div>
+
+
+          </div>
+          <h5>Premier site photo</h5>
+          <div className="projets__item-cta">
+            {/* <a href="https://github.com/PierreMerlaud/projet_collectif_vente_de_meubles-front-team_retrovibe"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a> */}
+            <a href="https://pierremerlaud.github.io/Premier-site-photo/index.html"className="btn btn-primary"target="_blank" rel="noreferrer"><AiOutlineLink className="projets__details-icon" /></a>
+          </div>
+          </div>
+            <div className="description">-&gt; Site de vente d'occasion.
+                                         <br/><br/>
+                                         -&gt; Projet collectif de 2 semaines.
+                                         <br/><br/>
+                                         -&gt; Équipe imposée (le groupe se sépare en deux équipes, une qui commencera par travailler sur le front-end et l’autre sur le back-end, puis les deux équipes inverseront à la fin de la première semaine).
+                                         <br/><br/>
+                                         -&gt; Découverte de React-JS et Laravel.
+                                         <br/><br/>
+                                         -&gt; Pratique de la complémentarité front / back.
+                                         <br/><br/>
+                                         -&gt; Expérimenter le switch d'une stack à une autre. 
+                                         <br/><br/>
+                                         -&gt; Travailler sur la transmission d'un code propre et aisément explicable.
+            </div>
+          </div>
+        </article>
+
+        <article className="projets__item">
+
+          <div className="image_description">
+
+            <div className="image_title_link">
+              <div className="projets__item-image">
+                <img src={extension} alt="extension_chrome" />
+                <div className="new_div">
+                  <h5>Stack</h5>
+                <div className="stack">
+                  <article className="front-1">
+                    <AiFillHtml5 className="projets__details-icon" />
+                    <div className="">
+                    <h4>HTML</h4>
+                    </div>
+                  </article>
+
+                  <article className="front-1">
+                    <DiCss3 className="projets__details-icon" />
+                    <div className="">
+                    <h4>CSS</h4>
+                    </div>
+                  </article>
+
+                  <article className="front-1">
+                    <SiJavascript className="projets__details-icon" />
+                    <div className="">
+                    <h4>JavaScript</h4>
+                    </div>
+                  </article>
+
+                  {/* <article className="front-1">
+                    <GrMysql className="projets__details-icon" />
+                    <div className="">
+                    <h4>Combativité</h4>
+                    </div>
+                  </article> */}
+                </div>
+              </div>
+              </div>
+              <h5>Extension navigateur</h5>
+              <div className="projets__item-cta">
+                <a href="https://github.com/PierreMerlaud/Projet-Extension-Navigateur-Chrome"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
+              </div>
+              </div>
+            <div className="description">-&gt; Site de vente d'occasion.
+                                         <br/><br/>
+                                         -&gt; Projet collectif de 2 semaines.
+                                         <br/><br/>
+                                         -&gt; Équipe imposée (le groupe se sépare en deux équipes, une qui commencera par travailler sur le front-end et l’autre sur le back-end, puis les deux équipes inverseront à la fin de la première semaine).
+                                         <br/><br/>
+                                         -&gt; Découverte de React-JS et Laravel.
+                                         <br/><br/>
+                                         -&gt; Pratique de la complémentarité front / back.
+                                         <br/><br/>
+                                         -&gt; Expérimenter le switch d'une stack à une autre. 
+                                         <br/><br/>
+                                         -&gt; Travailler sur la transmission d'un code propre et aisément explicable.
+            </div>
+          </div>
+        </article>
+
+        <article className="projets__item">
+
+          <div className="image_description">
+
+            <div className="image_title_link">
+                <div className="projets__item-image">
+                  <img src={reseau_social} alt="" />
+                  <div className="new_div">
+                    <h5>Stack</h5>
+                  <div className="stack">
+                    <article className="front-1">
+                      <DiPhp className="projets__details-icon" />
+                      <div className="">
+                      <h4>php</h4>
+                      </div>
+                    </article>
+
+                    <article className="front-1">
+                      <GrMysql className="projets__details-icon" />
+                      <div className="">
+                      <h4>MySQL</h4>
+                      </div>
+                    </article>
+
+                    <article className="front-1">
+                      {/* <GrMysql className="projets__details-icon" /> */}
+                      <div className="">
+                      <h4>WAMP</h4>
+                      </div>
+                    </article>
+
+                    {/* <article className="front-1">
+                      <GrMysql className="projets__details-icon" />
+                      <div className="">
+                      <h4>Combativité</h4>
+                      </div>
+                    </article> */}
                   </div>
                 </div>
-            <div className="description">“Lauréline Fleury a lancé son entreprise “Anciens meubles pour une nouvelle vie”, de vente de meubles de seconde main. Pour gagner en visibilité, elle a besoin d’avoir un site internet pour afficher ses produits. En plus, cela lui permettra de gérer son stock. Son besoin est donc le suivant : J’ai besoin d’avoir une page principale qui regroupera les meubles en vente en ce moment. Pour l’affichage de chaque meuble, je souhaite un encart dans lequel on pourra retrouver une photo, le type de meuble, le prix et un bouton pour l’acheter. Chaque encart sera cliquable pour permettre d’accéder au détail du produit. Sur cette nouvelle page, on retrouvera une série de photos du meuble et toutes les informations nécessaires, c’est-à-dire, le type, le prix, les dimensions, les couleurs, les matières et bien sûr un bouton pour acheter. Pour ce qui est de l’administration, je souhaite une page de connexion. Lorsque je suis connectée je dois pouvoir accéder à une page de gestion des produits. Sur celle-ci je veux pouvoir avoir la liste de mes meubles. Je souhaite pouvoir modifier les informations de mes produits en ayant un bouton depuis ma liste. Je dois pouvoir également les supprimer s’ils ont été vendus en magasin.”</div>
+                </div>
+                <h5>Réseau social</h5>
+                <div className="projets__item-cta">
+                  <a href="https://github.com/PierreMerlaud/project_collectif_reseau_social_php"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
+                </div>
+                </div>
+            <div className="description">-&gt; Site de vente d'occasion.
+                                         <br/><br/>
+                                         -&gt; Projet collectif de 2 semaines.
+                                         <br/><br/>
+                                         -&gt; Équipe imposée (le groupe se sépare en deux équipes, une qui commencera par travailler sur le front-end et l’autre sur le back-end, puis les deux équipes inverseront à la fin de la première semaine).
+                                         <br/><br/>
+                                         -&gt; Découverte de React-JS et Laravel.
+                                         <br/><br/>
+                                         -&gt; Pratique de la complémentarité front / back.
+                                         <br/><br/>
+                                         -&gt; Expérimenter le switch d'une stack à une autre. 
+                                         <br/><br/>
+                                         -&gt; Travailler sur la transmission d'un code propre et aisément explicable.
+            </div>
           </div>
         </article>
 
         <article className="projets__item">
-        <div className="projets__item-image">
-          <img src={sitephoto1} alt="site_e_commerce" />
-          <div className="new_div">
-            <h5>Stack</h5>
-          <div className="stack">
-            <article className="front-1">
-              <AiFillHtml5 className="projets__details-icon" />
-              <div className="">
-              <h4>HTML</h4>
-              </div>
-            </article>
 
-            <article className="front-1">
-              <DiCss3 className="projets__details-icon" />
-              <div className="">
-              <h4>CSS</h4>
+          <div className="image_description">
+
+            <div className="image_title_link">
+              <div className="projets__item-image">
+                <img src={pico} alt="" />
+                <div className="new_div">
+                  <h5>Stack</h5>
+                <div className="stack">
+                  <article className="front-1">
+                    <SiLua className="projets__details-icon" />
+                    <div className="">
+                    <h4>Lua</h4>
+                    </div>
+                  </article>
+
+                  {/* <article className="front-1">
+                    <DiCss3 className="projets__details-icon" />
+                    <div className="">
+                    <h4>CSS</h4>
+                    </div>
+                  </article>
+
+                  <article className="front-1">
+                    <GrMysql className="projets__details-icon" />
+                    <div className="">
+                    <h4>CSS</h4>
+                    </div>
+                  </article>
+
+                  <article className="front-1">
+                    <GrMysql className="projets__details-icon" />
+                    <div className="">
+                    <h4>Combativité</h4>
+                    </div>
+                  </article> */}
+                </div>
               </div>
-            </article>
+              </div>
+              <h5>Jeu-vidéo en 8 bits</h5>
+              <div className="projets__item-cta">
+                <a href="https://github.com/PierreMerlaud/projet-collectif---pico-8-gasrace"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
+              </div>
+              </div>
+            <div className="description">-&gt; Site de vente d'occasion.
+                                         <br/><br/>
+                                         -&gt; Projet collectif de 2 semaines.
+                                         <br/><br/>
+                                         -&gt; Équipe imposée (le groupe se sépare en deux équipes, une qui commencera par travailler sur le front-end et l’autre sur le back-end, puis les deux équipes inverseront à la fin de la première semaine).
+                                         <br/><br/>
+                                         -&gt; Découverte de React-JS et Laravel.
+                                         <br/><br/>
+                                         -&gt; Pratique de la complémentarité front / back.
+                                         <br/><br/>
+                                         -&gt; Expérimenter le switch d'une stack à une autre. 
+                                         <br/><br/>
+                                         -&gt; Travailler sur la transmission d'un code propre et aisément explicable.
+            </div>
           </div>
-        </div>
-
-
-        </div>
-        <h5>Premier site photo</h5>
-        <div className="projets__item-cta">
-          {/* <a href="https://github.com/PierreMerlaud/projet_collectif_vente_de_meubles-front-team_retrovibe"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a> */}
-          <a href="https://pierremerlaud.github.io/Premier-site-photo/index.html"className="btn btn-primary"target="_blank" rel="noreferrer"><AiOutlineLink className="projets__details-icon" /></a>
-        </div>
         </article>
 
         <article className="projets__item">
-        <div className="projets__item-image">
-          <img src={extension} alt="extension_chrome" />
-          <div className="new_div">
-            <h5>Stack</h5>
-          <div className="stack">
-            <article className="front-1">
-              <AiFillHtml5 className="projets__details-icon" />
-              <div className="">
-              <h4>HTML</h4>
-              </div>
-            </article>
 
-            <article className="front-1">
-              <DiCss3 className="projets__details-icon" />
-              <div className="">
-              <h4>CSS</h4>
-              </div>
-            </article>
+          <div className="image_description">
 
-            <article className="front-1">
-              <SiJavascript className="projets__details-icon" />
-              <div className="">
-              <h4>JavaScript</h4>
-              </div>
-            </article>
+            <div className="image_title_link">
+              <div className="projets__item-image">
+                <img src={Mer} alt="" />
+                <div className="new_div">
+                  <h5>Stack</h5>
+                <div className="stack">
+                  <article className="front-1">
+                    <GrReactjs className="projets__details-icon" />
+                    <div className="">
+                    <h4>React-js</h4>
+                    </div>
+                  </article>
 
-            {/* <article className="front-1">
-              <GrMysql className="projets__details-icon" />
-              <div className="">
-              <h4>Combativité</h4>
+                  <article className="front-1">
+                    <FaNodeJs className="projets__details-icon" />
+                    <div className="">
+                    <h4>Node-js</h4>
+                    </div>
+                  </article>
+
+                  {/* <article className="front-1">
+                    <GrMysql className="projets__details-icon" />
+                    <div className="">
+                    <h4></h4>
+                    </div>
+                  </article>
+
+                  <article className="front-1">
+                    <GrMysql className="projets__details-icon" />
+                    <div className="">
+                    <h4>Combativité</h4>
+                    </div>
+                  </article> */}
+                </div>
               </div>
-            </article> */}
+              </div>
+              <h5>Site photographie</h5>
+              <div className="projets__item-cta">
+                <p className="btn">in progress</p>
+                {/* <a href="https://travel-life-app.vercel.app/"className="btn btn-primary"target="_blank" rel="noreferrer">live projet</a> */}
+              </div>
+              </div>
+            <div className="description">-&gt; Site de vente d'occasion.
+                                         <br/><br/>
+                                         -&gt; Projet collectif de 2 semaines.
+                                         <br/><br/>
+                                         -&gt; Équipe imposée (le groupe se sépare en deux équipes, une qui commencera par travailler sur le front-end et l’autre sur le back-end, puis les deux équipes inverseront à la fin de la première semaine).
+                                         <br/><br/>
+                                         -&gt; Découverte de React-JS et Laravel.
+                                         <br/><br/>
+                                         -&gt; Pratique de la complémentarité front / back.
+                                         <br/><br/>
+                                         -&gt; Expérimenter le switch d'une stack à une autre. 
+                                         <br/><br/>
+                                         -&gt; Travailler sur la transmission d'un code propre et aisément explicable.
+            </div>
           </div>
-        </div>
-        </div>
-        <h5>Extension navigateur</h5>
-        <div className="projets__item-cta">
-          <a href="https://github.com/PierreMerlaud/Projet-Extension-Navigateur-Chrome"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
-        </div>
-        </article>
-
-        <article className="projets__item">
-        <div className="projets__item-image">
-          <img src={reseau_social} alt="" />
-          <div className="new_div">
-            <h5>Stack</h5>
-          <div className="stack">
-            <article className="front-1">
-              <DiPhp className="projets__details-icon" />
-              <div className="">
-              <h4>php</h4>
-              </div>
-            </article>
-
-            <article className="front-1">
-              <GrMysql className="projets__details-icon" />
-              <div className="">
-              <h4>MySQL</h4>
-              </div>
-            </article>
-
-            <article className="front-1">
-              {/* <GrMysql className="projets__details-icon" /> */}
-              <div className="">
-              <h4>WAMP</h4>
-              </div>
-            </article>
-
-            {/* <article className="front-1">
-              <GrMysql className="projets__details-icon" />
-              <div className="">
-              <h4>Combativité</h4>
-              </div>
-            </article> */}
-          </div>
-        </div>
-        </div>
-        <h5>Réseau social</h5>
-        <div className="projets__item-cta">
-          <a href="https://github.com/PierreMerlaud/project_collectif_reseau_social_php"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
-        </div>
-        </article>
-
-        <article className="projets__item">
-        <div className="projets__item-image">
-          <img src={pico} alt="" />
-          <div className="new_div">
-            <h5>Stack</h5>
-          <div className="stack">
-            <article className="front-1">
-              <SiLua className="projets__details-icon" />
-              <div className="">
-              <h4>Lua</h4>
-              </div>
-            </article>
-
-            {/* <article className="front-1">
-              <DiCss3 className="projets__details-icon" />
-              <div className="">
-              <h4>CSS</h4>
-              </div>
-            </article>
-
-            <article className="front-1">
-              <GrMysql className="projets__details-icon" />
-              <div className="">
-              <h4>CSS</h4>
-              </div>
-            </article>
-
-            <article className="front-1">
-              <GrMysql className="projets__details-icon" />
-              <div className="">
-              <h4>Combativité</h4>
-              </div>
-            </article> */}
-          </div>
-        </div>
-        </div>
-        <h5>Jeu-vidéo en 8 bits</h5>
-        <div className="projets__item-cta">
-          <a href="https://github.com/PierreMerlaud/projet-collectif---pico-8-gasrace"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
-        </div>
-        </article>
-
-        <article className="projets__item">
-        <div className="projets__item-image">
-          <img src={Mer} alt="" />
-          <div className="new_div">
-            <h5>Stack</h5>
-          <div className="stack">
-            <article className="front-1">
-              <GrReactjs className="projets__details-icon" />
-              <div className="">
-              <h4>React-js</h4>
-              </div>
-            </article>
-
-            <article className="front-1">
-              <FaNodeJs className="projets__details-icon" />
-              <div className="">
-              <h4>Node-js</h4>
-              </div>
-            </article>
-
-            {/* <article className="front-1">
-              <GrMysql className="projets__details-icon" />
-              <div className="">
-              <h4></h4>
-              </div>
-            </article>
-
-            <article className="front-1">
-              <GrMysql className="projets__details-icon" />
-              <div className="">
-              <h4>Combativité</h4>
-              </div>
-            </article> */}
-          </div>
-        </div>
-        </div>
-        <h5>Site photographie</h5>
-        <div className="projets__item-cta">
-          <p className="btn">in progress</p>
-          {/* <a href="https://travel-life-app.vercel.app/"className="btn btn-primary"target="_blank" rel="noreferrer">live projet</a> */}
-        </div>
         </article>
       </div>
     </section>

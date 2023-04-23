@@ -1,5 +1,3 @@
-
-
 #projets {
     margin: 0%;
     padding-bottom: 4rem;
@@ -50,17 +48,34 @@
 
 .projets__item-image:hover img {
     opacity: 0;
-  }
-
+}
 
 .projets__item-image:hover .new_div {
     opacity: 1;
-    }
+}
+
+.image_title_link {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcf9f0;
+    border-radius: 2rem;
+    border: 4px solid #035491;
+    padding: 1rem;
+}
 
 .new_div h5 {
     text-align: center;
 }
-
 
 .projets__item h5 {
     margin:1.2rem 0 1.2rem;
@@ -75,10 +90,6 @@
 .image_description {
     display: flex;
     gap: 2rem;
-}
-
-.description {
-    width: 90%;
 }
 
 .stack {
@@ -129,6 +140,10 @@
    .stack {
     row-gap: 0.8rem;
     
+    }
+
+    .image_title_link {
+        width: 100%;
     }
 
     .description {
