@@ -35,48 +35,48 @@ const Projects = () => {
 
       <div className="container projets__container">
         <article className="projets__item">
-        <div className="projets__item-image">
-          <img src={retrovibe} alt="site_e_commerce" />
-          <div className="new_div">
-            <h5>Stack</h5>
-          <div className="stack">
-            <article className="front-1">
-              <GrReactjs className="projets__details-icon" />
-              <div className="">
-              <h4>React-js</h4>
-              </div>
-            </article>
-
-            <article className="front-1">
-              <SiTailwindcss className="projets__details-icon" />
-              <div className="">
-              <h4>Tailwind</h4>
-              </div>
-            </article>
-
-            <article className="front-1">
-              <FaLaravel className="projets__details-icon" />
-              <div className="">
-              <h4>Laravel-php</h4>
-              </div>
-            </article>
-
-            <article className="front-1">
-              <GrMysql className="projets__details-icon" />
-              <div className="">
-              <h4>MySQL</h4>
-              </div>
-            </article>
+          <div className="image_description">
+              <div className="image_title_link">
+                <div className="projets__item-image">
+                  <img src={retrovibe} alt="site_e_commerce" />
+                    <div className="new_div">
+                      <h5>Stack</h5>
+                      <div className="stack">
+                        <article className="front-1">
+                          <GrReactjs className="projets__details-icon" />
+                          <div className="">
+                          <h4>React-js</h4>
+                          </div>
+                        </article>
+                        <article className="front-1">
+                          <SiTailwindcss className="projets__details-icon" />
+                          <div className="">
+                          <h4>Tailwind</h4>
+                          </div>
+                        </article>
+                        <article className="front-1">
+                          <FaLaravel className="projets__details-icon" />
+                          <div className="">
+                          <h4>Laravel-php</h4>
+                          </div>
+                        </article>
+                        <article className="front-1">
+                          <GrMysql className="projets__details-icon" />
+                          <div className="">
+                          <h4>MySQL</h4>
+                          </div>
+                        </article>
+                      </div>
+                  </div>
+                  </div>
+                  <h5>E-commerce</h5>
+                  <div className="projets__item-cta">
+                    <a href="https://github.com/PierreMerlaud/projet_collectif_vente_de_meubles-front-team_retrovibe"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
+                    <a href="https://retrovibes.herokuapp.com/home"className="btn btn-primary"target="_blank" rel="noreferrer"><AiOutlineLink className="projets__details-icon" /></a>
+                  </div>
+                </div>
+            <div className="description">“Lauréline Fleury a lancé son entreprise “Anciens meubles pour une nouvelle vie”, de vente de meubles de seconde main. Pour gagner en visibilité, elle a besoin d’avoir un site internet pour afficher ses produits. En plus, cela lui permettra de gérer son stock. Son besoin est donc le suivant : J’ai besoin d’avoir une page principale qui regroupera les meubles en vente en ce moment. Pour l’affichage de chaque meuble, je souhaite un encart dans lequel on pourra retrouver une photo, le type de meuble, le prix et un bouton pour l’acheter. Chaque encart sera cliquable pour permettre d’accéder au détail du produit. Sur cette nouvelle page, on retrouvera une série de photos du meuble et toutes les informations nécessaires, c’est-à-dire, le type, le prix, les dimensions, les couleurs, les matières et bien sûr un bouton pour acheter. Pour ce qui est de l’administration, je souhaite une page de connexion. Lorsque je suis connectée je dois pouvoir accéder à une page de gestion des produits. Sur celle-ci je veux pouvoir avoir la liste de mes meubles. Je souhaite pouvoir modifier les informations de mes produits en ayant un bouton depuis ma liste. Je dois pouvoir également les supprimer s’ils ont été vendus en magasin.”</div>
           </div>
-        </div>
-
-
-        </div>
-        <h5>E-commerce</h5>
-        <div className="projets__item-cta">
-          <a href="https://github.com/PierreMerlaud/projet_collectif_vente_de_meubles-front-team_retrovibe"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
-          <a href="https://retrovibes.herokuapp.com/home"className="btn btn-primary"target="_blank" rel="noreferrer"><AiOutlineLink className="projets__details-icon" /></a>
-        </div>
         </article>
 
         <article className="projets__item">

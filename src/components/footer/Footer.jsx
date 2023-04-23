@@ -8,11 +8,11 @@ const Footer = () => {
   return (
     <footer>
       <ul className="permalink">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projets">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">ACCUEIL</a></li>
+        <li><a href="#about">À PROPOS</a></li>
+        <li><a href="#experience">COMPÉTENCES</a></li>
+        <li><a href="#projets">PRATIQUE DU CODE</a></li>
+        <li><a href="#contact">CONTACT</a></li>
       </ul>
 
       <div className="footer__socials">
@@ -22,7 +22,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Pierre Merlaud. All rights reserved.</small>
+        <small>&copy; Pierre Merlaud. Tous droits réservés.</small>
       </div>
     </footer>
   )
