@@ -6,6 +6,7 @@ import {RxCounterClockwiseClock} from "react-icons/rx"
 import {BsCaretRightSquareFill} from "react-icons/bs"
 import {Gi3DStairs} from "react-icons/gi"
 import {BsHeart} from "react-icons/bs"
+import{BsInstagram} from "react-icons/bs"
 
 
 
@@ -64,7 +65,7 @@ const About = () => {
               <h5>Centres d'intérêt</h5>
               <BsHeart className="about__icon"/>               
             </div>
-            <p>Photographie argentique <br/>
+            <p>Photographie argentique &nbsp;<a href="https://www.instagram.com/pierom007/" target="_blank" rel="noopener, noreferrer"><BsInstagram/></a><br/>
                Cinéma <br/>
                Tennis / badminton <br/>
                Littérature

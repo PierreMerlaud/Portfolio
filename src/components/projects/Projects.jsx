@@ -131,19 +131,17 @@ const Projects = () => {
             <a href="https://pierremerlaud.github.io/Premier-site-photo/index.html"className="btn btn-primary"target="_blank" rel="noreferrer"><AiOutlineLink className="projets__details-icon" /></a>
           </div>
           </div>
-            <div className="description">-&gt; Site de vente d'occasion.
+            <div className="description">-&gt; Site de photographe amateur.
                                          <br/><br/>
-                                         -&gt; Projet collectif de 2 semaines.
+                                         -&gt; Projet solo.
                                          <br/><br/>
-                                         -&gt; Équipe imposée (le groupe se sépare en deux équipes, une qui commencera par travailler sur le front-end et l’autre sur le back-end, puis les deux équipes inverseront à la fin de la première semaine).
+                                         -&gt; Pratiquer les bases d'un site web statique (HTML/CSS).
                                          <br/><br/>
-                                         -&gt; Découverte de React-JS et Laravel.
+                                         -&gt; Appréhender l'importance du responsive. (CSS, media queries)
                                          <br/><br/>
-                                         -&gt; Pratique de la complémentarité front / back.
+                                         -&gt; Sensibilisation à une mise en page claire et fonctionnelle (expérience utilisateur UX). 
                                          <br/><br/>
-                                         -&gt; Expérimenter le switch d'une stack à une autre. 
-                                         <br/><br/>
-                                         -&gt; Travailler sur la transmission d'un code propre et aisément explicable.
+                                         -&gt; Expérimenter sa faculté à apprendre seul, en autonomie.
             </div>
           </div>
         </article>
@@ -193,19 +191,19 @@ const Projects = () => {
                 <a href="https://github.com/PierreMerlaud/Projet-Extension-Navigateur-Chrome"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
               </div>
               </div>
-            <div className="description">-&gt; Site de vente d'occasion.
+            <div className="description">-&gt; Codage d'une extension utilisable sur Chrome.
+                                         <br/><br/>
+                                         -&gt; Une fois installée l'extension permet de choisir un animal via un bandeau permanent sur le navigateur. Les images de chaque page web sont remplacées par des images de l'animal choisi. Si AFK, des informations random viennent animer la page.
                                          <br/><br/>
                                          -&gt; Projet collectif de 2 semaines.
                                          <br/><br/>
-                                         -&gt; Équipe imposée (le groupe se sépare en deux équipes, une qui commencera par travailler sur le front-end et l’autre sur le back-end, puis les deux équipes inverseront à la fin de la première semaine).
+                                         -&gt; Équipe imposée. (3 personnes)
                                          <br/><br/>
-                                         -&gt; Découverte de React-JS et Laravel.
+                                         -&gt; Découvrir l’écosystème d’un navigateur.
+                                         <br/><br/>    
+                                         -&gt; Utilisation de deux API. 
                                          <br/><br/>
-                                         -&gt; Pratique de la complémentarité front / back.
-                                         <br/><br/>
-                                         -&gt; Expérimenter le switch d'une stack à une autre. 
-                                         <br/><br/>
-                                         -&gt; Travailler sur la transmission d'un code propre et aisément explicable.
+                                         -&gt; Explorer les mécanismes d’un navigateur (DOM, moteur exécution JS, ...). Se familiariser avec la documentation d’un navigateur.
             </div>
           </div>
         </article>
@@ -255,19 +253,19 @@ const Projects = () => {
                   <a href="https://github.com/PierreMerlaud/project_collectif_reseau_social_php"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
                 </div>
                 </div>
-            <div className="description">-&gt; Site de vente d'occasion.
+            <div className="description">-&gt; Simulation d'un réseau social.
                                          <br/><br/>
                                          -&gt; Projet collectif de 2 semaines.
                                          <br/><br/>
-                                         -&gt; Équipe imposée (le groupe se sépare en deux équipes, une qui commencera par travailler sur le front-end et l’autre sur le back-end, puis les deux équipes inverseront à la fin de la première semaine).
+                                         -&gt; Équipe imposée (3 personnes).
                                          <br/><br/>
-                                         -&gt; Découverte de React-JS et Laravel.
+                                         -&gt; Découverte de php et MySql.
                                          <br/><br/>
-                                         -&gt; Pratique de la complémentarité front / back.
+                                         -&gt; Faire un site web dynamique qui construit les pages HTML à la demande grâce à une base de donnée.
                                          <br/><br/>
-                                         -&gt; Expérimenter le switch d'une stack à une autre. 
+                                         -&gt; Gérer les authentifications (login), sessions, inscriptions. 
                                          <br/><br/>
-                                         -&gt; Travailler sur la transmission d'un code propre et aisément explicable.
+                                         -&gt; Avoir un premier aperçu de la conception web, de la conception d'une base de données, des problématiques d’un projet multi-langages.
             </div>
           </div>
         </article>
@@ -317,19 +315,18 @@ const Projects = () => {
                 <a href="https://github.com/PierreMerlaud/projet-collectif---pico-8-gasrace"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
               </div>
               </div>
-            <div className="description">-&gt; Site de vente d'occasion.
+            <div className="description">-&gt; Création d'un jeu rétro en langage Lua.
                                          <br/><br/>
                                          -&gt; Projet collectif de 2 semaines.
                                          <br/><br/>
-                                         -&gt; Équipe imposée (le groupe se sépare en deux équipes, une qui commencera par travailler sur le front-end et l’autre sur le back-end, puis les deux équipes inverseront à la fin de la première semaine).
+                                         -&gt; Équipe imposée (3 personnes).
                                          <br/><br/>
-                                         -&gt; Découverte de React-JS et Laravel.
+                                         -&gt; Tout premier projet de code.
                                          <br/><br/>
-                                         -&gt; Pratique de la complémentarité front / back.
+                                         -&gt; Apprentissage du codage en équipe : orientation du projet, pair-programming, séparation des tâches...
                                          <br/><br/>
-                                         -&gt; Expérimenter le switch d'une stack à une autre. 
-                                         <br/><br/>
-                                         -&gt; Travailler sur la transmission d'un code propre et aisément explicable.
+                                         -&gt; Notions abordées : moteur de jeu, infographie 2d, recherche autonome de ressources... 
+                                         
             </div>
           </div>
         </article>
@@ -380,19 +377,21 @@ const Projects = () => {
                 {/* <a href="https://travel-life-app.vercel.app/"className="btn btn-primary"target="_blank" rel="noreferrer">live projet</a> */}
               </div>
               </div>
-            <div className="description">-&gt; Site de vente d'occasion.
+            <div className="description">-&gt; Site de photographe amateur version 2.0.
                                          <br/><br/>
-                                         -&gt; Projet collectif de 2 semaines.
+                                         -&gt; Projet solo.
                                          <br/><br/>
-                                         -&gt; Équipe imposée (le groupe se sépare en deux équipes, une qui commencera par travailler sur le front-end et l’autre sur le back-end, puis les deux équipes inverseront à la fin de la première semaine).
+                                         -&gt; Poursuivre la découverte de React-JS, Tailwind.
                                          <br/><br/>
-                                         -&gt; Découverte de React-JS et Laravel.
+                                         -&gt; Découvrir Node-JS et Mongo-DB.
                                          <br/><br/>
-                                         -&gt; Pratique de la complémentarité front / back.
+                                         -&gt; Héberger une bibliothèque d'images via Cloudinary.
                                          <br/><br/>
-                                         -&gt; Expérimenter le switch d'une stack à une autre. 
+                                         -&gt; Coder seul en autonomie sur temps libre un projet full-stack.
                                          <br/><br/>
-                                         -&gt; Travailler sur la transmission d'un code propre et aisément explicable.
+                                         -&gt; Reparcourir de nombreuses notions abordées dans les projets collectifs et les ré-appliquer pour mieux en saisir le fonctionnement.
+                                         <br/><br/>
+                                         -&gt; Découvrir et expérimenter de nouvelles notions et stacks.
             </div>
           </div>
         </article>
