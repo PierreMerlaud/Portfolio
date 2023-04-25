@@ -40,40 +40,47 @@ const Projects = () => {
 
             <div className="image_title_link">
 
-                <div className="projets__item-image">
-                    <img src={retrovibe} alt="site_e_commerce" />
-                    <div className="new_div">
-                      <h5>Stack</h5>
-                      <div className="stack">
-                        <article className="front-1">
-                          <GrReactjs className="projets__details-icon" />
-                          <div className="">
-                          <h4>React-js</h4>
-                          </div>
-                        </article>
-                        <article className="front-1">
-                          <SiTailwindcss className="projets__details-icon" />
-                          <div className="">
-                          <h4>Tailwind</h4>
-                          </div>
-                        </article>
-                        <article className="front-1">
-                          <FaLaravel className="projets__details-icon" />
-                          <div className="">
-                          <h4>Laravel-php</h4>
-                          </div>
-                        </article>
-                        <article className="front-1">
-                          <GrMysql className="projets__details-icon" />
-                          <div className="">
-                          <h4>MySQL</h4>
-                          </div>
-                        </article>
+              <div className="stack_image">
+                <div className="stack_arrow">
+                  <div class="arrow"></div>
+                  <div className="stack_title">STACK</div>
+                  <div class="arrow"></div>
+                </div>
+                    <div className="projets__item-image">
+                
+                      <img src={retrovibe} alt="site_e_commerce" />
+                      <div className="new_div">
+                        <h5>STACK</h5>
+                        <div className="stack">
+                          <article className="front-1">
+                            <GrReactjs className="projets__details-icon" />
+                            <div className="">
+                            <h4>React-js</h4>
+                            </div>
+                          </article>
+                          <article className="front-1">
+                            <SiTailwindcss className="projets__details-icon" />
+                            <div className="">
+                            <h4>Tailwind</h4>
+                            </div>
+                          </article>
+                          <article className="front-1">
+                            <FaLaravel className="projets__details-icon" />
+                            <div className="">
+                            <h4>Laravel-php</h4>
+                            </div>
+                          </article>
+                          <article className="front-1">
+                            <GrMysql className="projets__details-icon" />
+                            <div className="">
+                            <h4>MySQL</h4>
+                            </div>
+                          </article>
+                        </div>
                       </div>
                     </div>
-
-                  </div>
-                <h5>E-commerce (2023)</h5>
+              </div>
+                <h5>E-commerce <br/>(2023)</h5>
                 <div className="projets__item-cta">
                   <a href="https://github.com/PierreMerlaud/projet_collectif_vente_de_meubles-front-team_retrovibe"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
                   <a href="https://retrovibes.herokuapp.com/home"className="btn btn-primary"target="_blank" rel="noreferrer"><AiOutlineLink className="projets__details-icon" /></a>
@@ -101,42 +108,51 @@ const Projects = () => {
           <div className="image_description">
 
             <div className="image_title_link">
-              <div className="projets__item-image">
-                <img src={extension} alt="extension_chrome" />
-                <div className="new_div">
-                  <h5>Stack</h5>
-                <div className="stack">
-                  <article className="front-1">
-                    <AiFillHtml5 className="projets__details-icon" />
-                    <div className="">
-                    <h4>HTML</h4>
-                    </div>
-                  </article>
 
-                  <article className="front-1">
-                    <DiCss3 className="projets__details-icon" />
-                    <div className="">
-                    <h4>CSS</h4>
-                    </div>
-                  </article>
+              <div className="stack_image">
+                  <div className="stack_arrow">
+                    <div class="arrow"></div>
+                    <div className="stack_title">STACK</div>
+                    <div class="arrow"></div>
+                  </div>
+              
+                        <div className="projets__item-image">
+                            <img src={extension} alt="extension_chrome" />
+                            <div className="new_div">
+                              <h5>STACK</h5>
+                            <div className="stack">
+                              <article className="front-1">
+                                <AiFillHtml5 className="projets__details-icon" />
+                                <div className="">
+                                <h4>HTML</h4>
+                                </div>
+                              </article>
 
-                  <article className="front-1">
-                    <SiJavascript className="projets__details-icon" />
-                    <div className="">
-                    <h4>JavaScript</h4>
-                    </div>
-                  </article>
+                              <article className="front-1">
+                                <DiCss3 className="projets__details-icon" />
+                                <div className="">
+                                <h4>CSS</h4>
+                                </div>
+                              </article>
 
-                  {/* <article className="front-1">
-                    <GrMysql className="projets__details-icon" />
-                    <div className="">
-                    <h4>Combativité</h4>
-                    </div>
-                  </article> */}
-                </div>
+                              <article className="front-1">
+                                <SiJavascript className="projets__details-icon" />
+                                <div className="">
+                                <h4>JavaScript</h4>
+                                </div>
+                              </article>
+
+                              {/* <article className="front-1">
+                                <GrMysql className="projets__details-icon" />
+                                <div className="">
+                                <h4>Combativité</h4>
+                                </div>
+                              </article> */}
+                            </div>
+                          </div>
+                        </div>
               </div>
-              </div>
-              <h5>Extension navigateur (2023)</h5>
+              <h5>Extension navigateur <br/>(2023)</h5>
               <div className="projets__item-cta">
                 <a href="https://github.com/PierreMerlaud/Projet-Extension-Navigateur-Chrome"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
               </div>
@@ -163,42 +179,51 @@ const Projects = () => {
           <div className="image_description">
 
             <div className="image_title_link">
-                <div className="projets__item-image">
-                  <img src={reseau_social} alt="" />
-                  <div className="new_div">
-                    <h5>Stack</h5>
-                  <div className="stack">
-                    <article className="front-1">
-                      <DiPhp className="projets__details-icon" />
-                      <div className="">
-                      <h4>php</h4>
-                      </div>
-                    </article>
 
-                    <article className="front-1">
-                      <GrMysql className="projets__details-icon" />
-                      <div className="">
-                      <h4>MySQL</h4>
-                      </div>
-                    </article>
-
-                    <article className="front-1">
-                      {/* <GrMysql className="projets__details-icon" /> */}
-                      <div className="">
-                      <h4>WAMP</h4>
-                      </div>
-                    </article>
-
-                    {/* <article className="front-1">
-                      <GrMysql className="projets__details-icon" />
-                      <div className="">
-                      <h4>Combativité</h4>
-                      </div>
-                    </article> */}
+              <div className="stack_image">
+                  <div className="stack_arrow">
+                    <div class="arrow"></div>
+                    <div className="stack_title">STACK</div>
+                    <div class="arrow"></div>
                   </div>
-                </div>
-                </div>
-                <h5>Réseau social (2023)</h5>
+
+                    <div className="projets__item-image">
+                        <img src={reseau_social} alt="" />
+                        <div className="new_div">
+                          <h5>STACK</h5>
+                        <div className="stack">
+                          <article className="front-1">
+                            <DiPhp className="projets__details-icon" />
+                            <div className="">
+                            <h4>php</h4>
+                            </div>
+                          </article>
+
+                          <article className="front-1">
+                            <GrMysql className="projets__details-icon" />
+                            <div className="">
+                            <h4>MySQL</h4>
+                            </div>
+                          </article>
+
+                          <article className="front-1">
+                            {/* <GrMysql className="projets__details-icon" /> */}
+                            <div className="">
+                            <h4>WAMP</h4>
+                            </div>
+                          </article>
+
+                          {/* <article className="front-1">
+                            <GrMysql className="projets__details-icon" />
+                            <div className="">
+                            <h4>Combativité</h4>
+                            </div>
+                          </article> */}
+                        </div>
+                      </div>
+                    </div>
+              </div>
+                <h5>Réseau social <br/>(2023)</h5>
                 <div className="projets__item-cta">
                   <a href="https://github.com/PierreMerlaud/project_collectif_reseau_social_php"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
                 </div>
@@ -225,42 +250,51 @@ const Projects = () => {
           <div className="image_description">
 
             <div className="image_title_link">
-              <div className="projets__item-image">
-                <img src={pico} alt="" />
-                <div className="new_div">
-                  <h5>Stack</h5>
-                <div className="stack">
-                  <article className="front-1">
-                    <SiLua className="projets__details-icon" />
-                    <div className="">
-                    <h4>Lua</h4>
-                    </div>
-                  </article>
 
-                  {/* <article className="front-1">
-                    <DiCss3 className="projets__details-icon" />
-                    <div className="">
-                    <h4>CSS</h4>
-                    </div>
-                  </article>
+                <div className="stack_image">
+                  <div className="stack_arrow">
+                    <div class="arrow"></div>
+                    <div className="stack_title">STACK</div>
+                    <div class="arrow"></div>
+                  </div>
 
-                  <article className="front-1">
-                    <GrMysql className="projets__details-icon" />
-                    <div className="">
-                    <h4>CSS</h4>
-                    </div>
-                  </article>
+                    <div className="projets__item-image">
+                        <img src={pico} alt="" />
+                        <div className="new_div">
+                          <h5>STACK</h5>
+                        <div className="stack">
+                          <article className="front-1">
+                            <SiLua className="projets__details-icon" />
+                            <div className="">
+                            <h4>Lua</h4>
+                            </div>
+                          </article>
 
-                  <article className="front-1">
-                    <GrMysql className="projets__details-icon" />
-                    <div className="">
-                    <h4>Combativité</h4>
+                          {/* <article className="front-1">
+                            <DiCss3 className="projets__details-icon" />
+                            <div className="">
+                            <h4>CSS</h4>
+                            </div>
+                          </article>
+
+                          <article className="front-1">
+                            <GrMysql className="projets__details-icon" />
+                            <div className="">
+                            <h4>CSS</h4>
+                            </div>
+                          </article>
+
+                          <article className="front-1">
+                            <GrMysql className="projets__details-icon" />
+                            <div className="">
+                            <h4>Combativité</h4>
+                            </div>
+                          </article> */}
+                        </div>
+                      </div>
                     </div>
-                  </article> */}
-                </div>
-              </div>
-              </div>
-              <h5>Jeu-vidéo en 8 bits (2022)</h5>
+                </div>    
+              <h5>Jeu-vidéo en 8 bits <br/>(2022)</h5>
               <div className="projets__item-cta">
                 <a href="https://github.com/PierreMerlaud/projet-collectif---pico-8-gasrace"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
               </div>
@@ -287,30 +321,36 @@ const Projects = () => {
 
             <div className="image_title_link">
 
-          <div className="projets__item-image">
-            <img src={sitephoto1} alt="site_e_commerce" />
-            <div className="new_div">
-              <h5>Stack</h5>
-            <div className="stack">
-              <article className="front-1">
-                <AiFillHtml5 className="projets__details-icon" />
-                <div className="">
-                <h4>HTML</h4>
+              <div className="stack_image">
+                  <div className="stack_arrow">
+                    <div class="arrow"></div>
+                    <div className="stack_title">STACK</div>
+                    <div class="arrow"></div>
+                  </div>
+
+                <div className="projets__item-image">
+                      <img src={sitephoto1} alt="site_e_commerce" />
+                      <div className="new_div">
+                        <h5>STACK</h5>
+                      <div className="stack">
+                        <article className="front-1">
+                          <AiFillHtml5 className="projets__details-icon" />
+                          <div className="">
+                          <h4>HTML</h4>
+                          </div>
+                        </article>
+
+                        <article className="front-1">
+                          <DiCss3 className="projets__details-icon" />
+                          <div className="">
+                          <h4>CSS</h4>
+                          </div>
+                        </article>
+                      </div>
+                      </div>
                 </div>
-              </article>
-
-              <article className="front-1">
-                <DiCss3 className="projets__details-icon" />
-                <div className="">
-                <h4>CSS</h4>
-                </div>
-              </article>
-            </div>
-          </div>
-
-
-          </div>
-          <h5>Premier site photo (2022)</h5>
+              </div>
+          <h5>Premier site photo <br/>(2022)</h5>
           <div className="projets__item-cta">
             {/* <a href="https://github.com/PierreMerlaud/projet_collectif_vente_de_meubles-front-team_retrovibe"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a> */}
             <a href="https://pierremerlaud.github.io/Premier-site-photo/index.html"className="btn btn-primary"target="_blank" rel="noreferrer"><AiOutlineLink className="projets__details-icon" /></a>
@@ -338,42 +378,51 @@ const Projects = () => {
           <div className="image_description">
 
             <div className="image_title_link">
-              <div className="projets__item-image">
-                <img src={Mer} alt="" />
-                <div className="new_div">
-                  <h5>Stack</h5>
-                <div className="stack">
-                  <article className="front-1">
-                    <GrReactjs className="projets__details-icon" />
-                    <div className="">
-                    <h4>React-js</h4>
-                    </div>
-                  </article>
 
-                  <article className="front-1">
-                    <FaNodeJs className="projets__details-icon" />
-                    <div className="">
-                    <h4>Node-js</h4>
-                    </div>
-                  </article>
+              <div className="stack_image">
+                  <div className="stack_arrow">
+                    <div class="arrow"></div>
+                    <div className="stack_title">STACK</div>
+                    <div class="arrow"></div>
+                  </div>        
 
-                  {/* <article className="front-1">
-                    <GrMysql className="projets__details-icon" />
-                    <div className="">
-                    <h4></h4>
-                    </div>
-                  </article>
+                    <div className="projets__item-image">
+                        <img src={Mer} alt="" />
+                        <div className="new_div">
+                          <h5>STACK</h5>
+                        <div className="stack">
+                          <article className="front-1">
+                            <GrReactjs className="projets__details-icon" />
+                            <div className="">
+                            <h4>React-js</h4>
+                            </div>
+                          </article>
 
-                  <article className="front-1">
-                    <GrMysql className="projets__details-icon" />
-                    <div className="">
-                    <h4>Combativité</h4>
+                          <article className="front-1">
+                            <FaNodeJs className="projets__details-icon" />
+                            <div className="">
+                            <h4>Node-js</h4>
+                            </div>
+                          </article>
+
+                          {/* <article className="front-1">
+                            <GrMysql className="projets__details-icon" />
+                            <div className="">
+                            <h4></h4>
+                            </div>
+                          </article>
+
+                          <article className="front-1">
+                            <GrMysql className="projets__details-icon" />
+                            <div className="">
+                            <h4>Combativité</h4>
+                            </div>
+                          </article> */}
+                        </div>
+                      </div>
                     </div>
-                  </article> */}
-                </div>
-              </div>
-              </div>
-              <h5>Site photographie (2023)</h5>
+              </div>     
+              <h5>Site photographie<br/>(2023)</h5>
               <div className="projets__item-cta">
                 <p className="btn">in progress</p>
                 {/* <a href="https://travel-life-app.vercel.app/"className="btn btn-primary"target="_blank" rel="noreferrer">live projet</a> */}
