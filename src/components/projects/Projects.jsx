@@ -73,7 +73,7 @@ const Projects = () => {
                     </div>
 
                   </div>
-                <h5>E-commerce</h5>
+                <h5>E-commerce (2023)</h5>
                 <div className="projets__item-cta">
                   <a href="https://github.com/PierreMerlaud/projet_collectif_vente_de_meubles-front-team_retrovibe"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
                   <a href="https://retrovibes.herokuapp.com/home"className="btn btn-primary"target="_blank" rel="noreferrer"><AiOutlineLink className="projets__details-icon" /></a>
@@ -92,56 +92,6 @@ const Projects = () => {
                                          -&gt; Expérimenter le switch d'une stack à une autre. 
                                          <br/><br/>
                                          -&gt; Travailler sur la transmission d'un code propre et aisément explicable.
-            </div>
-          </div>
-        </article>
-
-        <article className="projets__item">
-
-          <div className="image_description">
-
-            <div className="image_title_link">
-
-          <div className="projets__item-image">
-            <img src={sitephoto1} alt="site_e_commerce" />
-            <div className="new_div">
-              <h5>Stack</h5>
-            <div className="stack">
-              <article className="front-1">
-                <AiFillHtml5 className="projets__details-icon" />
-                <div className="">
-                <h4>HTML</h4>
-                </div>
-              </article>
-
-              <article className="front-1">
-                <DiCss3 className="projets__details-icon" />
-                <div className="">
-                <h4>CSS</h4>
-                </div>
-              </article>
-            </div>
-          </div>
-
-
-          </div>
-          <h5>Premier site photo</h5>
-          <div className="projets__item-cta">
-            {/* <a href="https://github.com/PierreMerlaud/projet_collectif_vente_de_meubles-front-team_retrovibe"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a> */}
-            <a href="https://pierremerlaud.github.io/Premier-site-photo/index.html"className="btn btn-primary"target="_blank" rel="noreferrer"><AiOutlineLink className="projets__details-icon" /></a>
-          </div>
-          </div>
-            <div className="description">-&gt; Site de photographe amateur.
-                                         <br/><br/>
-                                         -&gt; Projet solo.
-                                         <br/><br/>
-                                         -&gt; Pratiquer les bases d'un site web statique (HTML/CSS).
-                                         <br/><br/>
-                                         -&gt; Appréhender l'importance du responsive. (CSS, media queries)
-                                         <br/><br/>
-                                         -&gt; Sensibilisation à une mise en page claire et fonctionnelle (expérience utilisateur UX). 
-                                         <br/><br/>
-                                         -&gt; Expérimenter sa faculté à apprendre seul, en autonomie.
             </div>
           </div>
         </article>
@@ -186,7 +136,7 @@ const Projects = () => {
                 </div>
               </div>
               </div>
-              <h5>Extension navigateur</h5>
+              <h5>Extension navigateur (2023)</h5>
               <div className="projets__item-cta">
                 <a href="https://github.com/PierreMerlaud/Projet-Extension-Navigateur-Chrome"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
               </div>
@@ -248,7 +198,7 @@ const Projects = () => {
                   </div>
                 </div>
                 </div>
-                <h5>Réseau social</h5>
+                <h5>Réseau social (2023)</h5>
                 <div className="projets__item-cta">
                   <a href="https://github.com/PierreMerlaud/project_collectif_reseau_social_php"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
                 </div>
@@ -310,23 +260,75 @@ const Projects = () => {
                 </div>
               </div>
               </div>
-              <h5>Jeu-vidéo en 8 bits</h5>
+              <h5>Jeu-vidéo en 8 bits (2022)</h5>
               <div className="projets__item-cta">
                 <a href="https://github.com/PierreMerlaud/projet-collectif---pico-8-gasrace"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a>
               </div>
               </div>
-            <div className="description">-&gt; Création d'un jeu rétro en langage Lua.
+            <div className="description">-&gt; Premier projet d'école et de code en équipe.   
+                                         <br/><br/>          
+                                         -&gt; Création d'un jeu rétro en langage Lua.
                                          <br/><br/>
                                          -&gt; Projet collectif de 2 semaines.
                                          <br/><br/>
                                          -&gt; Équipe imposée (3 personnes).
                                          <br/><br/>
-                                         -&gt; Tout premier projet de code.
-                                         <br/><br/>
                                          -&gt; Apprentissage du codage en équipe : orientation du projet, pair-programming, séparation des tâches...
                                          <br/><br/>
                                          -&gt; Notions abordées : moteur de jeu, infographie 2d, recherche autonome de ressources... 
                                          
+            </div>
+          </div>
+        </article>
+
+        <article className="projets__item">
+
+          <div className="image_description">
+
+            <div className="image_title_link">
+
+          <div className="projets__item-image">
+            <img src={sitephoto1} alt="site_e_commerce" />
+            <div className="new_div">
+              <h5>Stack</h5>
+            <div className="stack">
+              <article className="front-1">
+                <AiFillHtml5 className="projets__details-icon" />
+                <div className="">
+                <h4>HTML</h4>
+                </div>
+              </article>
+
+              <article className="front-1">
+                <DiCss3 className="projets__details-icon" />
+                <div className="">
+                <h4>CSS</h4>
+                </div>
+              </article>
+            </div>
+          </div>
+
+
+          </div>
+          <h5>Premier site photo (2022)</h5>
+          <div className="projets__item-cta">
+            {/* <a href="https://github.com/PierreMerlaud/projet_collectif_vente_de_meubles-front-team_retrovibe"className="btn"target="_blank" rel="noreferrer"><BsGithub className="projets__details-icon" /></a> */}
+            <a href="https://pierremerlaud.github.io/Premier-site-photo/index.html"className="btn btn-primary"target="_blank" rel="noreferrer"><AiOutlineLink className="projets__details-icon" /></a>
+          </div>
+          </div>
+            <div className="description">-&gt; Tout premier essai de code.
+                                         <br/><br/>
+                                         -&gt; Site de photographe amateur.
+                                         <br/><br/>
+                                         -&gt; Projet solo.
+                                         <br/><br/>
+                                         -&gt; Pratiquer les bases d'un site web statique (HTML/CSS).
+                                         <br/><br/>
+                                         -&gt; Appréhender l'importance du responsive. (CSS, media queries)
+                                         <br/><br/>
+                                         -&gt; Sensibilisation à une mise en page claire et fonctionnelle (expérience utilisateur UX). 
+                                         <br/><br/>
+                                         -&gt; Expérimenter sa faculté à apprendre seul, en autonomie.
             </div>
           </div>
         </article>
@@ -371,7 +373,7 @@ const Projects = () => {
                 </div>
               </div>
               </div>
-              <h5>Site photographie</h5>
+              <h5>Site photographie (2023)</h5>
               <div className="projets__item-cta">
                 <p className="btn">in progress</p>
                 {/* <a href="https://travel-life-app.vercel.app/"className="btn btn-primary"target="_blank" rel="noreferrer">live projet</a> */}
