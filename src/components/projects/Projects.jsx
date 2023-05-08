@@ -18,6 +18,7 @@ import { SiLua } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import { AiOutlineLink } from "react-icons/ai";
+import { SiMongodb } from "react-icons/si";
 
 const Projects = () => {
   return (
@@ -483,6 +484,20 @@ const Projects = () => {
                           <FaNodeJs className="projets__details-icon" />
                           <div className="">
                             <h4>Node-js</h4>
+                          </div>
+                        </article>
+
+                        <article className="front-1">
+                          <SiMongodb className="projets__details-icon" />
+                          <div className="">
+                            <h4>MongoDB</h4>
+                          </div>
+                        </article>
+
+                        <article className="front-1">
+                          <SiTailwindcss className="projets__details-icon" />
+                          <div className="">
+                            <h4>Tailwind</h4>
                           </div>
                         </article>
 
