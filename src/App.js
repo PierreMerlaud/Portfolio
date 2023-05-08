@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import About from "./components/about/About";
@@ -12,8 +12,8 @@ function App() {
   useEffect(() => {
     WebFont.load({
       google: {
-        families: ['Roboto', 'sans-serif']
-      }
+        families: ["Roboto", "sans-serif"],
+      },
     });
   }, []);
 
