@@ -1,6 +1,6 @@
 import React from "react";
 import "./projects.css";
-import retrovibe from "../../assets/retrovibe.png";
+// import retrovibe from "../../assets/retrovibe.png";
 import extension from "../../assets/extension.png";
 import reseau_social from "../../assets/reseau_social.png";
 import pico from "../../assets/pico.png";
@@ -8,7 +8,7 @@ import Mer from "../../assets/Mer.jpg";
 import sitephoto1 from "../../assets/site-photo1.png";
 import { GrReactjs } from "react-icons/gr";
 import { SiTailwindcss } from "react-icons/si";
-import { FaLaravel } from "react-icons/fa";
+// import { FaLaravel } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
@@ -19,6 +19,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import { AiOutlineLink } from "react-icons/ai";
 import { SiMongodb } from "react-icons/si";
+import ProjectsModele from "../projectsModele";
 
 const Projects = () => {
   return (
@@ -28,7 +29,8 @@ const Projects = () => {
         <h2>Projets</h2>
 
         <div className="container projets__container">
-          <article className="projets__item">
+          <ProjectsModele />
+          {/* <article className="projets__item">
             <div className="image_description">
               <div className="image_title_link">
                 <div className="stack_image">
@@ -119,7 +121,7 @@ const Projects = () => {
                 aisément explicable.
               </div>
             </div>
-          </article>
+          </article> */}
 
           <article className="projets__item">
             <div className="image_description">
