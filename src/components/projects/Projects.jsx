@@ -5,6 +5,7 @@ import extension from "../../assets/extension.png";
 import reseau_social from "../../assets/reseau_social.png";
 import pico from "../../assets/pico.png";
 import Mer from "../../assets/Mer.jpg";
+import neverleak from "../../assets/neverleak.png";
 import sitephoto1 from "../../assets/site-photo1.png";
 import { GrReactjs } from "react-icons/gr";
 import { SiTailwindcss } from "react-icons/si";
@@ -263,6 +264,57 @@ const Projects = () => {
             projets collectifs et les ré-appliquer pour mieux en saisir le
             fonctionnement."
             goal5="Découvrir et expérimenter de nouvelles notions et stacks."
+          />
+
+          <ProjectsModele
+            stackText="STACK"
+            srcImage={neverleak}
+            altImage="site_e_commerce"
+            stack1="React-js"
+            stack2="Tailwind"
+            stack3="Laravel-Php"
+            stack4="MySql"
+            icon1={<GrReactjs className="projets__details-icon" />}
+            icon2={<SiTailwindcss className="projets__details-icon" />}
+            icon3={<FaLaravel className="projets__details-icon" />}
+            icon4={<GrMysql className="projets__details-icon" />}
+            theme={
+              <h5>
+                E-commerce <br />
+                (2023)
+              </h5>
+            }
+            projectGit={
+              <a
+                href="https://github.com/PierreMerlaud/projet_collectif_vente_de_meubles-front-team_retrovibe"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BsGithub className="projets__details-icon" />
+              </a>
+            }
+            projectButton={
+              <a
+                href="https://retrovibes.herokuapp.com/home"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <AiOutlineLink className="projets__details-icon" />
+              </a>
+            }
+            title="-&gt; Site de vente d'occasion."
+            context="-&gt; Projet collectif de 2 semaines."
+            description="-&gt; Équipe imposée (le groupe se sépare en deux équipes, une
+              qui commencera par travailler sur le front-end et l’autre sur le
+              back-end, puis les deux équipes inverseront à la fin de la
+              première semaine)."
+            goal1="-&gt; Découverte de React-JS et Laravel."
+            goal2="-&gt; Pratique de la complémentarité front / back."
+            goal3="-&gt; Expérimenter le switch d'une stack à une autre."
+            goal4="-&gt; Travailler sur la transmission d'un code propre et
+            aisément explicable."
           />
         </div>
       </section>
