@@ -1,7 +1,7 @@
 export default function ProjectsModele({
-  altImage,
+  stackText = "STACK",
   srcImage,
-  stackText,
+  altImage,
   stack1,
   stack2,
   stack3,
@@ -11,10 +11,9 @@ export default function ProjectsModele({
   icon3,
   icon4,
   theme,
-  gitLink,
-  gitIcon,
-  projectLink,
-  linkIcon,
+  projectGit,
+  projectButton,
+  inProgress,
   title,
   context,
   description,
@@ -22,6 +21,7 @@ export default function ProjectsModele({
   goal2,
   goal3,
   goal4,
+  goal5,
 }) {
   return (
     <article className="projets__item">
@@ -66,19 +66,11 @@ export default function ProjectsModele({
               </div>
             </div>
           </div>
-          <h5>{theme}</h5>
+          {theme}
           <div className="projets__item-cta">
-            <a href={gitLink} className="btn" target="_blank" rel="noreferrer">
-              {gitIcon}
-            </a>
-            <a
-              href={projectLink}
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {linkIcon}
-            </a>
+            {projectGit}
+            {projectButton}
+            {inProgress}
           </div>
         </div>
         <div className="description">
@@ -101,6 +93,9 @@ export default function ProjectsModele({
           <br />
           <br />
           {goal4}
+          <br />
+          <br />
+          {goal5}
         </div>
       </div>
     </article>
