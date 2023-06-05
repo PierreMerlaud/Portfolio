@@ -1,28 +1,4 @@
-export default function ProjectsModele({
-  stackText = "STACK",
-  srcImage,
-  altImage,
-  stack1,
-  stack2,
-  stack3,
-  stack4,
-  icon1,
-  icon2,
-  icon3,
-  icon4,
-  theme,
-  projectGit,
-  projectButton,
-  inProgress,
-  title,
-  context,
-  description,
-  goal1,
-  goal2,
-  goal3,
-  goal4,
-  goal5,
-}) {
+export default function ProjectsModele({ projectInfo }) {
   return (
     <article className="projets__item">
       <div className="image_description">
@@ -30,72 +6,65 @@ export default function ProjectsModele({
           <div className="stack_image">
             <div className="stack_arrow">
               <div class="arrow"></div>
-              <div className="stack_title">{stackText}</div>
+              <div className="stack_title">{projectInfo.stackText}</div>
               <div class="arrow"></div>
             </div>
             <div className="projets__item-image">
-              <img src={srcImage} alt={altImage} />
+              <img src={projectInfo.srcImage} alt={projectInfo.altImage} />
               <div className="new_div">
-                <h5>{stackText}</h5>
+                <h5>{projectInfo.stackText}</h5>
                 <div className="stack">
                   <article className="front-1">
-                    {icon1}
+                    {projectInfo.icon1}
                     <div className="">
-                      <h4>{stack1}</h4>
+                      <h4>{projectInfo.stack1}</h4>
                     </div>
                   </article>
                   <article className="front-1">
-                    {icon2}
+                    {projectInfo.icon2}
                     <div className="">
-                      <h4>{stack2}</h4>
+                      <h4>{projectInfo.stack2}</h4>
                     </div>
                   </article>
                   <article className="front-1">
-                    {icon3}
+                    {projectInfo.icon3}
                     <div className="">
-                      <h4>{stack3}</h4>
+                      <h4>{projectInfo.stack3}</h4>
                     </div>
                   </article>
                   <article className="front-1">
-                    {icon4}
+                    {projectInfo.icon4}
                     <div className="">
-                      <h4>{stack4}</h4>
+                      <h4>{projectInfo.stack4}</h4>
                     </div>
                   </article>
                 </div>
               </div>
             </div>
           </div>
-          {theme}
+          {projectInfo.theme}
           <div className="projets__item-cta">
-            {projectGit}
-            {projectButton}
-            {inProgress}
+            {projectInfo.projectGit}
+            {projectInfo.projectButton}
+            {projectInfo.inProgress}
           </div>
         </div>
         <div className="description">
-          {title}
-          <br />
-          <br />
-          {context}
-          <br />
-          <br />
-          {description}
-          <br />
-          <br />
-          {goal1}
-          <br />
-          <br />
-          {goal2}
-          <br />
-          <br />
-          {goal3}
-          <br />
-          <br />
-          {goal4}
-          <br />
-          <br />
-          {goal5}
+          {projectInfo.title}
+
+          {projectInfo.context}
+
+          {projectInfo.description}
+
+          {projectInfo.goal1}
+
+          {projectInfo.goal2}
+
+          {projectInfo.goal3}
+
+          {projectInfo.goal4}
+
+          {projectInfo.goal5}
         </div>
       </div>
     </article>
