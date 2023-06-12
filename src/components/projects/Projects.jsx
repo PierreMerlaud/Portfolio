@@ -22,6 +22,7 @@ import { AiOutlineLink } from "react-icons/ai";
 import { SiMongodb } from "react-icons/si";
 import { SiSupabase } from "react-icons/si";
 import { SiExpo } from "react-icons/si";
+import { DiSass } from "react-icons/di";
 import ProjectsModele from "../projectsModele";
 
 const Projects = () => {
@@ -416,9 +417,9 @@ const Projects = () => {
               srcImage: sitephoto1,
               altImage: "site_photo_1",
               stack1: "HTML",
-              stack2: "CSS",
+              stack2: "Sass",
               icon1: <AiFillHtml5 className="projets__details-icon" />,
-              icon2: <DiCss3 className="projets__details-icon" />,
+              icon2: <DiSass className="projets__details-icon" />,
               theme: (
                 <h5>
                   Premier site photo <br />
@@ -459,15 +460,15 @@ const Projects = () => {
               ),
               description: (
                 <>
-                  -&gt; Pratiquer les bases d'un site web statique (HTML/CSS).{" "}
-                  <br />
+                  -&gt; Pratiquer les bases d'un site web statique
+                  (HTML/CSS/Sass). <br />
                   <br />
                 </>
               ),
               goal1: (
                 <>
-                  -&gt; Appréhender l'importance du responsive. (CSS, media
-                  queries) <br />
+                  -&gt; Appréhender l'importance du responsive. (CSS, Sass,
+                  media queries) <br />
                   <br />
                 </>
               ),

@@ -14,6 +14,7 @@ import { FaRegHandRock } from "react-icons/fa";
 import { BsPersonWorkspace } from "react-icons/bs";
 import { FaNodeJs } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
+import { DiSass } from "react-icons/di";
 
 const Xp = () => {
   return (
@@ -80,9 +81,12 @@ const Xp = () => {
               </article>
 
               <article className="experience__details">
-                <DiCss3 className="experience__details-icon" />
+                <div className="iconSpace">
+                  <DiCss3 className="experience__details-icon" />
+                  <DiSass className="experience__details-icon" />
+                </div>
                 <div className="experience__skills">
-                  <h4>CSS</h4>
+                  <h4>CSS / Sass</h4>
                 </div>
               </article>
 
