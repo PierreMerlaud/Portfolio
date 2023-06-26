@@ -17,11 +17,10 @@
 
 [![My Skills](https://skillicons.dev/icons?i=react,css,github,git,vscode)](https://skillicons.dev)
 
+<p>
   <img src="https://github.com/PierreMerlaud/Portfolio/assets/114992735/81253428-b779-4934-ab88-bce6f8a925d1" alt="portfolio1" width="500" style="margin: auto;">
   <img src="https://github.com/PierreMerlaud/Portfolio/assets/114992735/e2fc7567-0411-4db1-a4b1-8b1cd1a3157c" alt="portfolio2" width="500" style="margin: auto;">
-
-
-
+</p>
 
 VERSION MOBILE :
 
