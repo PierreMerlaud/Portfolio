@@ -156,7 +156,7 @@ const Projects = () => {
               ),
               projectButton: (
                 <a
-                  href="https://morpion-d8ik7b6ld-pierremerlaud.vercel.app/?vercelToolbarCode=PpBZjy6ZjE_YtMj"
+                  href="https://morpion-tawny.vercel.app/"
                   className="btn"
                   target="_blank"
                   rel="noreferrer"
