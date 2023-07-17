@@ -7,6 +7,7 @@ import pico from "../../assets/pico.png";
 import Mer from "../../assets/Mer.jpg";
 import neverleak from "../../assets/neverleak.jpg";
 import sitephoto1 from "../../assets/site-photo1.png";
+import Morpion from "../../assets/Morpion.png";
 import { GrReactjs } from "react-icons/gr";
 import { SiTailwindcss } from "react-icons/si";
 import { FaLaravel } from "react-icons/fa";
@@ -23,6 +24,8 @@ import { SiMongodb } from "react-icons/si";
 import { SiSupabase } from "react-icons/si";
 import { SiExpo } from "react-icons/si";
 import { DiSass } from "react-icons/di";
+import { SiNextdotjs } from "react-icons/si";
+import { SiVercel } from "react-icons/si";
 import ProjectsModele from "../projectsModele";
 
 const Projects = () => {
@@ -38,7 +41,7 @@ const Projects = () => {
               stackText: "STACK",
               srcImage: retrovibe,
               altImage: "site_e_commerce",
-              stack1: "React-js",
+              stack1: "React",
               stack2: "Tailwind",
               stack3: "Laravel-Php",
               stack4: "MySql",
@@ -125,6 +128,85 @@ const Projects = () => {
           <ProjectsModele
             projectInfo={{
               stackText: "STACK",
+              srcImage: Morpion,
+              altImage: "morpion",
+              stack1: "React",
+              stack2: "Next-JS",
+              stack3: "CSS",
+              stack4: "Vercel",
+              icon1: <GrReactjs className="projets__details-icon" />,
+              icon2: <SiNextdotjs className="projets__details-icon" />,
+              icon3: <DiCss3 className="projets__details-icon" />,
+              icon4: <SiVercel className="projets__details-icon" />,
+              theme: (
+                <h5>
+                  Jeu du morpion <br />
+                  (2023)
+                </h5>
+              ),
+              projectGit: (
+                <a
+                  href="https://github.com/PierreMerlaud/morpion"
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <BsGithub className="projets__details-icon" />
+                </a>
+              ),
+              projectButton: (
+                <a
+                  href="https://morpion-d8ik7b6ld-pierremerlaud.vercel.app/?vercelToolbarCode=PpBZjy6ZjE_YtMj"
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <AiOutlineLink className="projets__details-icon" />
+                </a>
+              ),
+              title: (
+                <>
+                  -&gt; Jeu du morpion. <br />
+                  <br />
+                </>
+              ),
+              context: (
+                <>
+                  -&gt; Projet solo.
+                  <br />
+                  <br />
+                </>
+              ),
+              description: (
+                <>
+                  -&gt; Pratiquer JS et algorithmie. <br />
+                  <br />
+                </>
+              ),
+              goal1: (
+                <>
+                  -&gt; Faire du front et un peu d'esthétique. <br />
+                  <br />
+                </>
+              ),
+              goal2: (
+                <>
+                  -&gt; Utiliser Next-JS pour la première fois. <br />
+                  <br />
+                </>
+              ),
+              goal3: (
+                <>
+                  -&gt; Héberger le projet avec Vercel. <br />
+                  <br />
+                </>
+              ),
+            }}
+          />
+
+          <ProjectsModele
+            projectInfo={{
+              stackText: "STACK",
               srcImage: neverleak,
               altImage: "mobile",
               stack1: "React-Native",
@@ -177,6 +259,84 @@ const Projects = () => {
               goal2: (
                 <>
                   -&gt; Appréhender les contraintes d'un projet mobile. <br />
+                  <br />
+                </>
+              ),
+            }}
+          />
+
+          <ProjectsModele
+            projectInfo={{
+              stackText: "STACK",
+              srcImage: sitephoto1,
+              altImage: "site_photo_1",
+              stack1: "HTML",
+              stack2: "Sass",
+              icon1: <AiFillHtml5 className="projets__details-icon" />,
+              icon2: <DiSass className="projets__details-icon" />,
+              theme: (
+                <h5>
+                  Premier site photo <br />
+                  (2022)
+                </h5>
+              ),
+              projectGit: (
+                <a
+                  href="https://github.com/PierreMerlaud/Premier-site-photo"
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <BsGithub className="projets__details-icon" />
+                </a>
+              ),
+              projectButton: (
+                <a
+                  href="https://pierremerlaud.github.io/Premier-site-photo/index.html"
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <AiOutlineLink className="projets__details-icon" />
+                </a>
+              ),
+              title: (
+                <>
+                  -&gt; Site de photographe amateur. <br />
+                  <br />
+                </>
+              ),
+              context: (
+                <>
+                  -&gt; Projet solo. Tout premier essai de code. <br />
+                  <br />
+                </>
+              ),
+              description: (
+                <>
+                  -&gt; Pratiquer les bases d'un site web statique
+                  (HTML/CSS/Sass). <br />
+                  <br />
+                </>
+              ),
+              goal1: (
+                <>
+                  -&gt; Appréhender l'importance du responsive. (CSS, Sass,
+                  media queries) <br />
+                  <br />
+                </>
+              ),
+              goal2: (
+                <>
+                  -&gt; Sensibilisation à une mise en page claire et
+                  fonctionnelle (expérience utilisateur UX). <br />
+                  <br />
+                </>
+              ),
+              goal3: (
+                <>
+                  -&gt; Expérimenter sa faculté à apprendre seul, en autonomie.{" "}
+                  <br />
                   <br />
                 </>
               ),
@@ -405,84 +565,6 @@ const Projects = () => {
                   -&gt; Avoir un premier aperçu de la conception web, de la
                   conception d'une base de données, des problématiques d’un
                   projet multi-langages. <br />
-                  <br />
-                </>
-              ),
-            }}
-          />
-
-          <ProjectsModele
-            projectInfo={{
-              stackText: "STACK",
-              srcImage: sitephoto1,
-              altImage: "site_photo_1",
-              stack1: "HTML",
-              stack2: "Sass",
-              icon1: <AiFillHtml5 className="projets__details-icon" />,
-              icon2: <DiSass className="projets__details-icon" />,
-              theme: (
-                <h5>
-                  Premier site photo <br />
-                  (2022)
-                </h5>
-              ),
-              projectGit: (
-                <a
-                  href="https://github.com/PierreMerlaud/Premier-site-photo"
-                  className="btn"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <BsGithub className="projets__details-icon" />
-                </a>
-              ),
-              projectButton: (
-                <a
-                  href="https://pierremerlaud.github.io/Premier-site-photo/index.html"
-                  className="btn"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <AiOutlineLink className="projets__details-icon" />
-                </a>
-              ),
-              title: (
-                <>
-                  -&gt; Site de photographe amateur. <br />
-                  <br />
-                </>
-              ),
-              context: (
-                <>
-                  -&gt; Projet solo. Tout premier essai de code. <br />
-                  <br />
-                </>
-              ),
-              description: (
-                <>
-                  -&gt; Pratiquer les bases d'un site web statique
-                  (HTML/CSS/Sass). <br />
-                  <br />
-                </>
-              ),
-              goal1: (
-                <>
-                  -&gt; Appréhender l'importance du responsive. (CSS, Sass,
-                  media queries) <br />
-                  <br />
-                </>
-              ),
-              goal2: (
-                <>
-                  -&gt; Sensibilisation à une mise en page claire et
-                  fonctionnelle (expérience utilisateur UX). <br />
-                  <br />
-                </>
-              ),
-              goal3: (
-                <>
-                  -&gt; Expérimenter sa faculté à apprendre seul, en autonomie.{" "}
-                  <br />
                   <br />
                 </>
               ),
