@@ -20,7 +20,7 @@ const About = () => {
             <div className="about__cards">
               <article className="about__card">
                 <div className="icon__h5">
-                  <h5>Passé</h5>
+                  <h5 className="about__h5">Passé</h5>
                   <RxCounterClockwiseClock className="about__icon" />
                 </div>
                 <p>
@@ -33,7 +33,7 @@ const About = () => {
 
               <article className="about__card">
                 <div className="icon__h5">
-                  <h5>Présent</h5>
+                  <h5 className="about__h5">Présent</h5>
                   <BsCaretRightSquareFill className="about__icon" />
                 </div>
                 <p>
@@ -47,7 +47,7 @@ const About = () => {
 
               <article className="about__card">
                 <div className="icon__h5">
-                  <h5>Futur</h5>
+                  <h5 className="about__h5">Futur</h5>
                   <Gi3DStairs className="about__icon" />
                 </div>
                 <p>

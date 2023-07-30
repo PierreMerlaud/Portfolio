@@ -39,14 +39,14 @@ header {
 }
 
 .header__socials > a {
-  color: #eeeeee;
+  color: #fff2f2;
 }
 
 .header__socials::after {
   content: "";
   width: 1px;
   height: 2rem;
-  background: #eeeeee;
+  background: #fff2f2;
 }
 /* ========== ME ========== */
 

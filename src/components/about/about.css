@@ -72,8 +72,13 @@
 
 .about__card:hover {
   background: transparent;
-  border-color: var(--color-primary-variant);
+  border-color: var(--color-primary);
+  color: #fff2f2;
   cursor: default;
+}
+
+.about__card > p:hover {
+  color: #fff2f2;
 }
 
 .btn-contact {
@@ -88,7 +93,7 @@
 }
 
 .about__icon {
-  color: var(--color-primary);
+  color: #424f80;
   font-size: 1.6rem;
 }
 
@@ -99,7 +104,6 @@
 
 .about__container p {
   margin: 1rem 0 1rem;
-  color: var(--color-light);
 }
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES)===========*/
