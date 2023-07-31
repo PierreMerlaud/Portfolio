@@ -88,6 +88,10 @@ svg {
   .experience__content {
     padding: 1rem;
   }
+
+  h4 {
+    font-size: 0.8rem;
+  }
 }
 
 /* ========== MEDIA QUERIES (SMALL DEVICES)===========*/
@@ -124,9 +128,5 @@ svg {
   .iconSpace {
     flex-direction: column;
     gap: 0;
-  }
-
-  h4 {
-    font-size: 0.8rem;
   }
 }

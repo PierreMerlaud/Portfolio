@@ -65,8 +65,12 @@ h1 {
   color: #fff2f2;
 }
 
-h5 {
+h2 {
   font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 1.5rem;
 }
 
 section {
@@ -142,17 +146,7 @@ img {
   display: block;
   height: 1px;
   width: 40%;
-  background: #9fc9f3; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #eeeeee,
-    #9fc9f3
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #eeeeee,
-    #9fc9f3
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #e5e0ff;
 }
 
 svg {
@@ -185,5 +179,9 @@ svg {
 
   h1 {
     font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
   }
 }

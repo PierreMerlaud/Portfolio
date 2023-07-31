@@ -17,6 +17,10 @@
   justify-content: space-around;
 }
 
+.contact__option svg {
+  color: var(--color-primary);
+}
+
 .contact__option {
   background: var(--color-bg-variant);
   padding: 1.2rem;

@@ -80,6 +80,10 @@
   background-color: var(--color-bg);
 }
 
+.new_div h5 {
+  color: #424f80;
+}
+
 .projets__item-image img {
   transition: opacity 0.3s ease-in-out;
 }
@@ -113,9 +117,9 @@
   transition: var(--transition);
 }
 
-.new_div h5 {
+/* .new_div h5 {
   text-align: center;
-}
+} */
 
 .projets__item h5 {
   margin: 1.2rem 0 1.2rem;
@@ -172,6 +176,10 @@
     width: 30%;
     min-width: 242px;
     padding: 1.2rem;
+  }
+
+  .projets__item h5 {
+    font-size: 1.2rem;
   }
 
   .stack {
