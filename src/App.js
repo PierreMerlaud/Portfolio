@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Background from "./components/background/Background";
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import About from "./components/about/About";
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <>
+      <Background />
       <Header />
       <Nav />
       <About />

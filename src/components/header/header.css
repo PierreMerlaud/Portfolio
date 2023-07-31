@@ -39,14 +39,18 @@ header {
 }
 
 .header__socials > a {
-  color: #eeeeee;
+  color: #fff2f2;
+  transition: var(--transition);
+}
+.header__socials > a:hover {
+  color: var(--color-primary);
 }
 
 .header__socials::after {
   content: "";
   width: 1px;
   height: 2rem;
-  background: #eeeeee;
+  background: #fff2f2;
 }
 /* ========== ME ========== */
 
@@ -70,7 +74,12 @@ header {
   transform: rotate(90deg);
   font-weight: 100;
   font-size: 0.9rem;
-  color: #9fc9f3;
+  color: var(--color-bg);
+  transition: var(--transition);
+}
+
+.scroll__down:hover {
+  color: var(--color-primary);
 }
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES)===========*/
@@ -80,7 +89,7 @@ header {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
   header {
     height: 80vh;
   }

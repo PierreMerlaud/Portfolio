@@ -15,8 +15,18 @@
 
 .experience__container > div:hover {
   background: transparent;
-  border-color: var(--color-primary-variant);
+  border-color: var(--color-primary);
+  color: #fff2f2;
   cursor: default;
+}
+
+.experience__container > div > h5 {
+  transition: var(--transition);
+}
+
+.experience__container > div:hover h5 {
+  transition: var(--transition);
+  color: #fff2f2;
 }
 
 .experience__container > div h5 {
@@ -78,6 +88,10 @@ svg {
   .experience__content {
     padding: 1rem;
   }
+
+  h4 {
+    font-size: 0.8rem;
+  }
 }
 
 /* ========== MEDIA QUERIES (SMALL DEVICES)===========*/
@@ -114,9 +128,5 @@ svg {
   .iconSpace {
     flex-direction: column;
     gap: 0;
-  }
-
-  h4 {
-    font-size: 0.8rem;
   }
 }

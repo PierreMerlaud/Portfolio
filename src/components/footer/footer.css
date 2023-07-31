@@ -8,6 +8,15 @@ footer {
 
 footer a {
   color: var(--color-bg);
+  padding: 0.5rem;
+  transition: var(--transition);
+}
+
+footer a:hover {
+  background: var(--color-bg);
+  color: var(--color-primary);
+  border-radius: 4rem;
+  border-color: var(--color-primary);
 }
 
 .footer__logo {
@@ -34,11 +43,12 @@ footer a {
 
 .footer__socials a {
   background: var(--color-bg);
-  color: var(--color-white);
+  color: var(--color-primary);
   padding: 0.8rem;
   border-radius: 0.7rem;
   display: flex;
   border: 1px solid transparent;
+  transition: var(--transition);
 }
 
 .footer__socials a:hover {
