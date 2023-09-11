@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f8434528.css",
-    "main.js": "/Portfolio/static/js/main.09ce6014.js",
+    "main.js": "/Portfolio/static/js/main.083f5246.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Mer.jpg": "/Portfolio/static/media/Mer.9bb3a6cf4f453b757db1.jpg",
     "static/media/champ.jpg": "/Portfolio/static/media/champ.3eb6ad25e0099909a941.jpg",
-    "static/media/site-photo1.png": "/Portfolio/static/media/site-photo1.615fd6323a0fbae727c1.png",
     "static/media/extension.png": "/Portfolio/static/media/extension.1e492b315fffb1d3096c.png",
     "static/media/CV_Pierre_Merlaud.pdf": "/Portfolio/static/media/CV_Pierre_Merlaud.8cd822e49b68a136b790.pdf",
     "static/media/PM.png": "/Portfolio/static/media/PM.c4ee43c25ad18121fb46.png",
     "static/media/reseau_social.png": "/Portfolio/static/media/reseau_social.0d0c9f6f7c83c4758177.png",
-    "static/media/Morpion.png": "/Portfolio/static/media/Morpion.276dd7b7a93adba80cbf.png",
+    "static/media/site-photo1_Edited.png": "/Portfolio/static/media/site-photo1_Edited.aa9b7d374177f7e38845.png",
     "static/media/neverleak.jpg": "/Portfolio/static/media/neverleak.394737c1bc11144545de.jpg",
     "static/media/retrovibe.png": "/Portfolio/static/media/retrovibe.a6fa3bb2c45cfedfdf53.png",
+    "static/media/Morpion_Edited.png": "/Portfolio/static/media/Morpion_Edited.7acfbc7725ef45d9a1a7.png",
     "static/media/pico.png": "/Portfolio/static/media/pico.07750ba9241a88093348.png",
     "static/media/Me.jpg": "/Portfolio/static/media/Me.6aad624c00e5029c1b6b.jpg",
     "index.html": "/Portfolio/index.html",
     "main.f8434528.css.map": "/Portfolio/static/css/main.f8434528.css.map",
-    "main.09ce6014.js.map": "/Portfolio/static/js/main.09ce6014.js.map",
+    "main.083f5246.js.map": "/Portfolio/static/js/main.083f5246.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8434528.css",
-    "static/js/main.09ce6014.js"
+    "static/js/main.083f5246.js"
   ]
 }
