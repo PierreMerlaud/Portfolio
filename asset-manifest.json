@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f8434528.css",
-    "main.js": "/Portfolio/static/js/main.0f650ebf.js",
+    "main.js": "/Portfolio/static/js/main.7d54c72b.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Mer.jpg": "/Portfolio/static/media/Mer.9bb3a6cf4f453b757db1.jpg",
     "static/media/champ.jpg": "/Portfolio/static/media/champ.3eb6ad25e0099909a941.jpg",
@@ -13,15 +13,16 @@
     "static/media/neverleak.jpg": "/Portfolio/static/media/neverleak.394737c1bc11144545de.jpg",
     "static/media/retrovibe.png": "/Portfolio/static/media/retrovibe.a6fa3bb2c45cfedfdf53.png",
     "static/media/Morpion_Edited.png": "/Portfolio/static/media/Morpion_Edited.7acfbc7725ef45d9a1a7.png",
+    "static/media/todolist.png": "/Portfolio/static/media/todolist.9e063814b508b30045e7.png",
     "static/media/pico.png": "/Portfolio/static/media/pico.07750ba9241a88093348.png",
     "static/media/Me.jpg": "/Portfolio/static/media/Me.6aad624c00e5029c1b6b.jpg",
     "index.html": "/Portfolio/index.html",
     "main.f8434528.css.map": "/Portfolio/static/css/main.f8434528.css.map",
-    "main.0f650ebf.js.map": "/Portfolio/static/js/main.0f650ebf.js.map",
+    "main.7d54c72b.js.map": "/Portfolio/static/js/main.7d54c72b.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8434528.css",
-    "static/js/main.0f650ebf.js"
+    "static/js/main.7d54c72b.js"
   ]
 }
