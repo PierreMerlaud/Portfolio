@@ -12,9 +12,10 @@ import { RiKakaoTalkLine } from "react-icons/ri";
 import { BsEmojiSmile } from "react-icons/bs";
 import { FaRegHandRock } from "react-icons/fa";
 import { BsPersonWorkspace } from "react-icons/bs";
-import { FaNodeJs } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import { DiSass } from "react-icons/di";
+import { SiNextdotjs } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 
 const Xp = () => {
   return (
@@ -91,19 +92,22 @@ const Xp = () => {
               </article>
 
               <article className="experience__details">
-                <SiJavascript className="experience__details-icon" />
+                <div className="iconSpace">
+                  <SiJavascript className="experience__details-icon" />
+                  <SiTypescript className="experience__details-icon" />
+                </div>
                 <div className="experience__skills">
-                  <h4>JavaScript</h4>
+                  <h4>JavaScript / TypeScript</h4>
                 </div>
               </article>
 
               <article className="experience__details">
                 <div className="iconSpace">
                   <GrReactjs className="experience__details-icon" />
-                  <FaNodeJs className="experience__details-icon" />
+                  <SiNextdotjs className="experience__details-icon" />
                 </div>
                 <div className="experience__skills">
-                  <h4>React / Node.js</h4>
+                  <h4>React / Next-js</h4>
                 </div>
               </article>
 
