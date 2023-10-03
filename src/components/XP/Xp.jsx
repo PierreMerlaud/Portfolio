@@ -51,7 +51,7 @@ const Xp = () => {
               <article className="experience__details">
                 <FaRegHandRock className="experience__details-icon" />
                 <div className="experience__skills">
-                  <h4>Combativité</h4>
+                  <h4>Persévérance</h4>
                 </div>
               </article>
 

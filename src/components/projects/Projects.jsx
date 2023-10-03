@@ -8,6 +8,7 @@ import Mer from "../../assets/Mer.jpg";
 import neverleak from "../../assets/neverleak.jpg";
 import sitephoto1 from "../../assets/site-photo1_Edited.png";
 import Morpion from "../../assets/Morpion_Edited.png";
+import todolist from "../../assets/todolist.png";
 import { GrReactjs } from "react-icons/gr";
 import { SiTailwindcss } from "react-icons/si";
 import { FaLaravel } from "react-icons/fa";
@@ -26,6 +27,8 @@ import { SiExpo } from "react-icons/si";
 import { DiSass } from "react-icons/di";
 import { SiNextdotjs } from "react-icons/si";
 import { SiVercel } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+
 import ProjectsModele from "../projectsModele";
 
 const Projects = () => {
@@ -172,7 +175,7 @@ const Projects = () => {
               ),
               context: (
                 <>
-                  -&gt; Projet solo.
+                  -&gt; Projet personnel.
                   <br />
                   <br />
                 </>
@@ -198,6 +201,90 @@ const Projects = () => {
               goal3: (
                 <>
                   -&gt; Héberger le projet avec Vercel. <br />
+                  <br />
+                </>
+              ),
+              goal4: (
+                <>
+                  -&gt; Coder responsive. <br />
+                  <br />
+                </>
+              ),
+            }}
+          />
+
+          <ProjectsModele
+            projectInfo={{
+              stackText: "STACK",
+              srcImage: todolist,
+              altImage: "to-do-list",
+              stack1: "React",
+              stack2: "Next-js",
+              stack3: "TypeScript",
+              stack4: "MongoDB",
+              icon1: <GrReactjs className="projets__details-icon" />,
+              icon2: <SiNextdotjs className="projets__details-icon" />,
+              icon3: <SiTypescript className="projets__details-icon" />,
+              icon4: <SiMongodb className="projets__details-icon" />,
+              theme: (
+                <h5>
+                  To-do-list <br />
+                  (2023)
+                </h5>
+              ),
+              projectGit: (
+                <a
+                  href="https://github.com/PierreMerlaud/to-do-list"
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <BsGithub className="projets__details-icon" />
+                </a>
+              ),
+              projectButton: (
+                <a
+                  href="https://to-do-list-etrv.vercel.app/"
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <AiOutlineLink className="projets__details-icon" />
+                </a>
+              ),
+              title: (
+                <>
+                  -&gt; Un gestionnaire de liste de tâches. <br />
+                  <br />
+                </>
+              ),
+              context: (
+                <>
+                  -&gt; Projet personnel. <br />
+                  <br />
+                </>
+              ),
+              description: (
+                <>
+                  -&gt; Découvrir Typescript. <br />
+                  <br />
+                </>
+              ),
+              goal1: (
+                <>
+                  -&gt; Poursuivre la pratique de Next-JS. <br />
+                  <br />
+                </>
+              ),
+              goal2: (
+                <>
+                  -&gt; Utiliser une base de donnée en MongoDB. <br />
+                  <br />
+                </>
+              ),
+              goal3: (
+                <>
+                  -&gt; Coder responsive. <br />
                   <br />
                 </>
               ),
