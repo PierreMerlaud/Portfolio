@@ -24,7 +24,7 @@ const About = () => {
                   <RxCounterClockwiseClock className="about__icon" />
                 </div>
                 <p>
-                  Anciennement assistant caméra pendant 5 ans, puis caméraman en
+                  Ancien assistant caméra pendant 5 ans, puis caméraman en
                   télévision durant 7 années, j'ai évolué dans un milieu où le
                   sens du collectif est primordial. Ce métier m'a permis de
                   développer un côté créatif et débrouillard. <br></br>
@@ -41,7 +41,7 @@ const About = () => {
                   School. Cette formation me permet de découvir le monde du code
                   et de la tech en autonomie grâce à la pédagogie Montessori.
                   L'accent est mis sur la communication et le travail en équipe.
-                  Je me concentre actuellement sur React-js et Node-js.
+                  Je me suis spécialisé plus particulièrement sur le langage js.
                 </p>
               </article>
 
@@ -51,10 +51,10 @@ const About = () => {
                   <Gi3DStairs className="about__icon" />
                 </div>
                 <p>
-                  En recherche d'une alternance à partir de juin 2023. Je suis
-                  impatient d'intégrer une équipe bienveillante avec laquelle
-                  poursuivre mon apprentissage en participant à des projets
-                  ambitieux et stimulants.{" "}
+                  En recherche d'une alternance à partir de novembre 2023. Je
+                  suis impatient d'intégrer une équipe bienveillante avec
+                  laquelle poursuivre mon apprentissage en participant à des
+                  projets ambitieux et stimulants.
                 </p>
               </article>
               <a href="#contact" className="btn btn-primary btn-contact">
