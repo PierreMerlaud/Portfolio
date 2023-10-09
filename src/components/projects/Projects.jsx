@@ -102,23 +102,30 @@ const Projects = () => {
               ),
               goal1: (
                 <>
-                  -&gt; Découverte de React-JS et Laravel. <br />
+                  -&gt; Gestion d'une connexion client et d'un panier d'achats.{" "}
+                  <br />
                   <br />
                 </>
               ),
               goal2: (
                 <>
-                  -&gt; Pratique de la complémentarité front / back. <br />
+                  -&gt; Découverte de React-JS et Laravel. <br />
                   <br />
                 </>
               ),
               goal3: (
                 <>
-                  -&gt; Expérimenter le switch d'une stack à une autre. <br />
+                  -&gt; Pratique de la complémentarité front / back. <br />
                   <br />
                 </>
               ),
               goal4: (
+                <>
+                  -&gt; Expérimenter le switch d'une stack à une autre. <br />
+                  <br />
+                </>
+              ),
+              goal5: (
                 <>
                   -&gt; Travailler sur la transmission d'un code propre et
                   aisément explicable. <br />
