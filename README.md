@@ -4,7 +4,7 @@
 
 ### Présentation du projet
 
-- Premier projet React en solo.
+- Premier projet avec React en solo.
 - Création d'un portfolio personnel.
 
 ### Objectifs
