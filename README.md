@@ -10,7 +10,7 @@
 ### Objectifs
 
 - découvrir React.
-- faire un site responsive en CSS.
+- faire un site responsive en CSS pur.
 - héberger le site via Github.
 
 ### Stack
