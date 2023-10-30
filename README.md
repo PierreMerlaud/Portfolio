@@ -11,7 +11,7 @@
 
 - découvrir React.
 - faire un site responsive en CSS pur.
-- héberger le site via Github.
+- héberger le site via Github pages.
 
 ### Stack
 
